@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSCashBook" targetNamespace="http://tempuri.org/DSCashBook.xsd" xmlns:mstns="http://tempuri.org/DSCashBook.xsd" xmlns="http://tempuri.org/DSCashBook.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSCashBook" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DSCashBook" msprop:Generator_UserDSName="DSCashBook">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ATD_TransactionDate" msprop:Generator_ColumnVarNameInTable="columnATD_TransactionDate" msprop:Generator_ColumnPropNameInRow="ATD_TransactionDate" msprop:Generator_ColumnPropNameInTable="ATD_TransactionDateColumn" msprop:Generator_UserColumnName="ATD_TransactionDate" type="xs:string" minOccurs="0" />
+              <xs:element name="ATD_BillID" msprop:Generator_ColumnVarNameInTable="columnATD_BillID" msprop:Generator_ColumnPropNameInRow="ATD_BillID" msprop:Generator_ColumnPropNameInTable="ATD_BillIDColumn" msprop:Generator_UserColumnName="ATD_BillID" type="xs:string" minOccurs="0" />
+              <xs:element name="VoucherNo" msprop:Generator_ColumnVarNameInTable="columnVoucherNo" msprop:Generator_ColumnPropNameInRow="VoucherNo" msprop:Generator_ColumnPropNameInTable="VoucherNoColumn" msprop:Generator_UserColumnName="VoucherNo" type="xs:string" minOccurs="0" />
+              <xs:element name="ATD_TrType" msprop:Generator_ColumnVarNameInTable="columnATD_TrType" msprop:Generator_ColumnPropNameInRow="ATD_TrType" msprop:Generator_ColumnPropNameInTable="ATD_TrTypeColumn" msprop:Generator_UserColumnName="ATD_TrType" type="xs:string" minOccurs="0" />
+              <xs:element name="GLCode" msprop:Generator_ColumnVarNameInTable="columnGLCode" msprop:Generator_ColumnPropNameInRow="GLCode" msprop:Generator_ColumnPropNameInTable="GLCodeColumn" msprop:Generator_UserColumnName="GLCode" type="xs:string" minOccurs="0" />
+              <xs:element name="GLDesc" msprop:Generator_ColumnVarNameInTable="columnGLDesc" msprop:Generator_ColumnPropNameInRow="GLDesc" msprop:Generator_ColumnPropNameInTable="GLDescColumn" msprop:Generator_UserColumnName="GLDesc" type="xs:string" minOccurs="0" />
+              <xs:element name="SubGLCode" msprop:Generator_ColumnVarNameInTable="columnSubGLCode" msprop:Generator_ColumnPropNameInRow="SubGLCode" msprop:Generator_ColumnPropNameInTable="SubGLCodeColumn" msprop:Generator_UserColumnName="SubGLCode" type="xs:string" minOccurs="0" />
+              <xs:element name="subDesc" msprop:Generator_ColumnVarNameInTable="columnsubDesc" msprop:Generator_ColumnPropNameInRow="subDesc" msprop:Generator_ColumnPropNameInTable="subDescColumn" msprop:Generator_UserColumnName="subDesc" type="xs:string" minOccurs="0" />
+              <xs:element name="ATD_Debit" msprop:Generator_ColumnVarNameInTable="columnATD_Debit" msprop:Generator_ColumnPropNameInRow="ATD_Debit" msprop:Generator_ColumnPropNameInTable="ATD_DebitColumn" msprop:Generator_UserColumnName="ATD_Debit" type="xs:string" minOccurs="0" />
+              <xs:element name="ATD_Credit" msprop:Generator_ColumnVarNameInTable="columnATD_Credit" msprop:Generator_ColumnPropNameInRow="ATD_Credit" msprop:Generator_ColumnPropNameInTable="ATD_CreditColumn" msprop:Generator_UserColumnName="ATD_Credit" type="xs:string" minOccurs="0" />
+              <xs:element name="SupplierCustomer" msprop:Generator_ColumnVarNameInTable="columnSupplierCustomer" msprop:Generator_ColumnPropNameInRow="SupplierCustomer" msprop:Generator_ColumnPropNameInTable="SupplierCustomerColumn" msprop:Generator_UserColumnName="SupplierCustomer" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GLSummary" msprop:Generator_TableClassName="GLSummaryDataTable" msprop:Generator_TableVarName="tableGLSummary" msprop:Generator_TablePropName="GLSummary" msprop:Generator_RowDeletingName="GLSummaryRowDeleting" msprop:Generator_RowChangingName="GLSummaryRowChanging" msprop:Generator_RowEvHandlerName="GLSummaryRowChangeEventHandler" msprop:Generator_RowDeletedName="GLSummaryRowDeleted" msprop:Generator_UserTableName="GLSummary" msprop:Generator_RowChangedName="GLSummaryRowChanged" msprop:Generator_RowEvArgName="GLSummaryRowChangeEvent" msprop:Generator_RowClassName="GLSummaryRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ATD_TransactionDate" msprop:Generator_ColumnVarNameInTable="columnATD_TransactionDate" msprop:Generator_ColumnPropNameInRow="ATD_TransactionDate" msprop:Generator_ColumnPropNameInTable="ATD_TransactionDateColumn" msprop:Generator_UserColumnName="ATD_TransactionDate" type="xs:string" minOccurs="0" />
+              <xs:element name="ATD_BillID" msprop:Generator_ColumnVarNameInTable="columnATD_BillID" msprop:Generator_ColumnPropNameInRow="ATD_BillID" msprop:Generator_ColumnPropNameInTable="ATD_BillIDColumn" msprop:Generator_UserColumnName="ATD_BillID" type="xs:string" minOccurs="0" />
+              <xs:element name="ATD_TrType" msprop:Generator_ColumnVarNameInTable="columnATD_TrType" msprop:Generator_ColumnPropNameInRow="ATD_TrType" msprop:Generator_ColumnPropNameInTable="ATD_TrTypeColumn" msprop:Generator_UserColumnName="ATD_TrType" type="xs:string" minOccurs="0" />
+              <xs:element name="ATD_OpenDebit" msprop:Generator_ColumnVarNameInTable="columnATD_OpenDebit" msprop:Generator_ColumnPropNameInRow="ATD_OpenDebit" msprop:Generator_ColumnPropNameInTable="ATD_OpenDebitColumn" msprop:Generator_UserColumnName="ATD_OpenDebit" type="xs:string" minOccurs="0" />
+              <xs:element name="ATD_OpenCredit" msprop:Generator_ColumnVarNameInTable="columnATD_OpenCredit" msprop:Generator_ColumnPropNameInRow="ATD_OpenCredit" msprop:Generator_ColumnPropNameInTable="ATD_OpenCreditColumn" msprop:Generator_UserColumnName="ATD_OpenCredit" type="xs:string" minOccurs="0" />
+              <xs:element name="ATD_Debit" msprop:Generator_ColumnVarNameInTable="columnATD_Debit" msprop:Generator_ColumnPropNameInRow="ATD_Debit" msprop:Generator_ColumnPropNameInTable="ATD_DebitColumn" msprop:Generator_UserColumnName="ATD_Debit" type="xs:string" minOccurs="0" />
+              <xs:element name="ATD_Credit" msprop:Generator_ColumnVarNameInTable="columnATD_Credit" msprop:Generator_ColumnPropNameInRow="ATD_Credit" msprop:Generator_ColumnPropNameInTable="ATD_CreditColumn" msprop:Generator_UserColumnName="ATD_Credit" type="xs:string" minOccurs="0" />
+              <xs:element name="ATD_ClosingDebit" msprop:Generator_ColumnVarNameInTable="columnATD_ClosingDebit" msprop:Generator_ColumnPropNameInRow="ATD_ClosingDebit" msprop:Generator_ColumnPropNameInTable="ATD_ClosingDebitColumn" msprop:Generator_UserColumnName="ATD_ClosingDebit" type="xs:string" minOccurs="0" />
+              <xs:element name="ATD_ClosingCredit" msprop:Generator_ColumnVarNameInTable="columnATD_ClosingCredit" msprop:Generator_ColumnPropNameInRow="ATD_ClosingCredit" msprop:Generator_ColumnPropNameInTable="ATD_ClosingCreditColumn" msprop:Generator_UserColumnName="ATD_ClosingCredit" type="xs:string" minOccurs="0" />
+              <xs:element name="ATD_GlDesc" msprop:Generator_ColumnVarNameInTable="columnATD_GlDesc" msprop:Generator_ColumnPropNameInRow="ATD_GlDesc" msprop:Generator_ColumnPropNameInTable="ATD_GlDescColumn" msprop:Generator_UserColumnName="ATD_GlDesc" type="xs:string" minOccurs="0" />
+              <xs:element name="Narration" msprop:Generator_ColumnVarNameInTable="columnNarration" msprop:Generator_ColumnPropNameInRow="Narration" msprop:Generator_ColumnPropNameInTable="NarrationColumn" msprop:Generator_UserColumnName="Narration" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn12" msprop:Generator_ColumnVarNameInTable="columnDataColumn12" msprop:Generator_ColumnPropNameInRow="DataColumn12" msprop:Generator_ColumnPropNameInTable="DataColumn12Column" msprop:Generator_UserColumnName="DataColumn12" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn13" msprop:Generator_ColumnVarNameInTable="columnDataColumn13" msprop:Generator_ColumnPropNameInRow="DataColumn13" msprop:Generator_ColumnPropNameInTable="DataColumn13Column" msprop:Generator_UserColumnName="DataColumn13" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

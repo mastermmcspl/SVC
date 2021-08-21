@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PurchaseOrder" targetNamespace="http://tempuri.org/PurchaseOrder.xsd" xmlns:mstns="http://tempuri.org/PurchaseOrder.xsd" xmlns="http://tempuri.org/PurchaseOrder.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="2" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="FAS_MMCS_2014ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="FAS_MMCS_2014ConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.FAS_MMCS_2014ConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="RGSTTConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="RGSTTConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.RGSTTConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="CHETANADISTRIBUTORSConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CHETANADISTRIBUTORSConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.CHETANADISTRIBUTORSConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CHETANADISTRIBUTORSConnectionString (Web.config)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Purchase_Order_Master.POM_OrderNo, CONVERT(VARCHAR(10), Purchase_Order_Master.POM_OrderDate, 103) AS POM_OrderDate, 
+                         Purchase_Order_Master.POM_Supplier, b.POD_Commodity, b.POD_Rate, b.POD_Quantity, b.POD_CST, CONVERT(money, b.POD_CSTAmount) AS POD_CSTAmount, 
+                         CONVERT(money, b.POD_RateAmount) AS POD_RateAmount, CONVERT(money, b.POD_Discount) AS POD_Discount, CONVERT(money, b.POD_DiscountAmount) 
+                         AS POD_DiscountAmount, CONVERT(money, b.POD_TotalAmount) AS POD_TotalAmount, CONVERT(money, b.POD_VAT) AS POD_VAT, CONVERT(money, 
+                         b.POD_Excise) AS POD_Excise, b.POD_Frieght, b.POD_FrieghtAmount, b.POD_ExciseAmount, CONVERT(money, b.POD_ExciseAmount) AS POD_ExciseAmount, 
+                         CONVERT(money, b.POD_VATAmount) AS POD_VATAmount, b.POD_Unit, b.POD_GSTRate, b.POD_GSTAmount, b.POD_SGST, b.POD_SGSTAmount, b.POD_CGST, 
+                         b.POD_CGSTAmount, b.POD_IGST, b.POD_IGSTAmount, c.Inv_Code, c.Inv_Description, d.CSM_Name, d.CSM_Address, d.CSM_MobileNo, d.CSM_EmailID, 
+                         e.Mas_desc, m.CUST_CODE, m.CUST_NAME, m.CUST_COMM_ADDRESS, m.CUST_EMAIL, m.CUST_COMM_TEL, InvH.INVH_Mdate, InvH.INVH_Edate, 
+                         Purchase_Order_Master.POM_DeliveryFrom, Purchase_Order_Master.POM_DeliveryFromGSTNRegNo, Purchase_Order_Master.POM_DeliveryAddress, 
+                         Purchase_Order_Master.POM_DeliveryGSTNRegNo
+FROM            Purchase_Order_Master INNER JOIN
+                         Purchase_Order_Details AS b ON Purchase_Order_Master.POM_ID = b.POD_MasterID AND b.POD_Status &lt;&gt; 'D' INNER JOIN
+                         Inventory_Master_History AS InvH ON b.POD_HistoryID = InvH.InvH_ID INNER JOIN
+                         Inventory_Master AS c ON b.POD_DescriptionID = c.Inv_ID INNER JOIN
+                         CustomerSupplierMaster AS d ON Purchase_Order_Master.POM_Supplier = d.CSM_ID INNER JOIN
+                         ACC_General_Master AS e ON b.POD_Unit = e.Mas_id INNER JOIN
+                         MST_CUSTOMER_MASTER AS m ON b.POD_CompID = m.CUST_ID</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="POM_OrderNo" DataSetColumn="POM_OrderNo" />
+              <Mapping SourceColumn="POM_OrderDate" DataSetColumn="POM_OrderDate" />
+              <Mapping SourceColumn="POM_Supplier" DataSetColumn="POM_Supplier" />
+              <Mapping SourceColumn="POD_Commodity" DataSetColumn="POD_Commodity" />
+              <Mapping SourceColumn="POD_Rate" DataSetColumn="POD_Rate" />
+              <Mapping SourceColumn="POD_Quantity" DataSetColumn="POD_Quantity" />
+              <Mapping SourceColumn="POD_CST" DataSetColumn="POD_CST" />
+              <Mapping SourceColumn="POD_CSTAmount" DataSetColumn="POD_CSTAmount" />
+              <Mapping SourceColumn="POD_RateAmount" DataSetColumn="POD_RateAmount" />
+              <Mapping SourceColumn="POD_Discount" DataSetColumn="POD_Discount" />
+              <Mapping SourceColumn="POD_DiscountAmount" DataSetColumn="POD_DiscountAmount" />
+              <Mapping SourceColumn="POD_TotalAmount" DataSetColumn="POD_TotalAmount" />
+              <Mapping SourceColumn="POD_VAT" DataSetColumn="POD_VAT" />
+              <Mapping SourceColumn="POD_Excise" DataSetColumn="POD_Excise" />
+              <Mapping SourceColumn="POD_Frieght" DataSetColumn="POD_Frieght" />
+              <Mapping SourceColumn="POD_FrieghtAmount" DataSetColumn="POD_FrieghtAmount" />
+              <Mapping SourceColumn="POD_ExciseAmount" DataSetColumn="POD_ExciseAmount" />
+              <Mapping SourceColumn="POD_ExciseAmount1" DataSetColumn="POD_ExciseAmount1" />
+              <Mapping SourceColumn="POD_VATAmount" DataSetColumn="POD_VATAmount" />
+              <Mapping SourceColumn="POD_Unit" DataSetColumn="POD_Unit" />
+              <Mapping SourceColumn="POD_GSTRate" DataSetColumn="POD_GSTRate" />
+              <Mapping SourceColumn="POD_GSTAmount" DataSetColumn="POD_GSTAmount" />
+              <Mapping SourceColumn="POD_SGST" DataSetColumn="POD_SGST" />
+              <Mapping SourceColumn="POD_SGSTAmount" DataSetColumn="POD_SGSTAmount" />
+              <Mapping SourceColumn="POD_CGST" DataSetColumn="POD_CGST" />
+              <Mapping SourceColumn="POD_CGSTAmount" DataSetColumn="POD_CGSTAmount" />
+              <Mapping SourceColumn="POD_IGST" DataSetColumn="POD_IGST" />
+              <Mapping SourceColumn="POD_IGSTAmount" DataSetColumn="POD_IGSTAmount" />
+              <Mapping SourceColumn="Inv_Code" DataSetColumn="Inv_Code" />
+              <Mapping SourceColumn="Inv_Description" DataSetColumn="Inv_Description" />
+              <Mapping SourceColumn="CSM_Name" DataSetColumn="CSM_Name" />
+              <Mapping SourceColumn="CSM_Address" DataSetColumn="CSM_Address" />
+              <Mapping SourceColumn="CSM_MobileNo" DataSetColumn="CSM_MobileNo" />
+              <Mapping SourceColumn="CSM_EmailID" DataSetColumn="CSM_EmailID" />
+              <Mapping SourceColumn="Mas_desc" DataSetColumn="Mas_desc" />
+              <Mapping SourceColumn="CUST_CODE" DataSetColumn="CUST_CODE" />
+              <Mapping SourceColumn="CUST_NAME" DataSetColumn="CUST_NAME" />
+              <Mapping SourceColumn="CUST_COMM_ADDRESS" DataSetColumn="CUST_COMM_ADDRESS" />
+              <Mapping SourceColumn="CUST_EMAIL" DataSetColumn="CUST_EMAIL" />
+              <Mapping SourceColumn="CUST_COMM_TEL" DataSetColumn="CUST_COMM_TEL" />
+              <Mapping SourceColumn="INVH_Mdate" DataSetColumn="INVH_Mdate" />
+              <Mapping SourceColumn="INVH_Edate" DataSetColumn="INVH_Edate" />
+              <Mapping SourceColumn="POM_DeliveryFrom" DataSetColumn="POM_DeliveryFrom" />
+              <Mapping SourceColumn="POM_DeliveryFromGSTNRegNo" DataSetColumn="POM_DeliveryFromGSTNRegNo" />
+              <Mapping SourceColumn="POM_DeliveryAddress" DataSetColumn="POM_DeliveryAddress" />
+              <Mapping SourceColumn="POM_DeliveryGSTNRegNo" DataSetColumn="POM_DeliveryGSTNRegNo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PurchaseOrder" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="PurchaseOrder" msprop:Generator_UserDSName="PurchaseOrder">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="POM_OrderNo" msprop:Generator_ColumnVarNameInTable="columnPOM_OrderNo" msprop:Generator_ColumnPropNameInRow="POM_OrderNo" msprop:Generator_ColumnPropNameInTable="POM_OrderNoColumn" msprop:Generator_UserColumnName="POM_OrderNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="POM_OrderDate" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPOM_OrderDate" msprop:Generator_ColumnPropNameInRow="POM_OrderDate" msprop:Generator_ColumnPropNameInTable="POM_OrderDateColumn" msprop:Generator_UserColumnName="POM_OrderDate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="POM_Supplier" msprop:Generator_ColumnVarNameInTable="columnPOM_Supplier" msprop:Generator_ColumnPropNameInRow="POM_Supplier" msprop:Generator_ColumnPropNameInTable="POM_SupplierColumn" msprop:Generator_UserColumnName="POM_Supplier" type="xs:int" minOccurs="0" />
+              <xs:element name="POD_Commodity" msprop:Generator_ColumnVarNameInTable="columnPOD_Commodity" msprop:Generator_ColumnPropNameInRow="POD_Commodity" msprop:Generator_ColumnPropNameInTable="POD_CommodityColumn" msprop:Generator_UserColumnName="POD_Commodity" type="xs:int" minOccurs="0" />
+              <xs:element name="POD_Rate" msprop:Generator_ColumnVarNameInTable="columnPOD_Rate" msprop:Generator_ColumnPropNameInRow="POD_Rate" msprop:Generator_ColumnPropNameInTable="POD_RateColumn" msprop:Generator_UserColumnName="POD_Rate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="POD_Quantity" msprop:Generator_ColumnVarNameInTable="columnPOD_Quantity" msprop:Generator_ColumnPropNameInRow="POD_Quantity" msprop:Generator_ColumnPropNameInTable="POD_QuantityColumn" msprop:Generator_UserColumnName="POD_Quantity" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POD_CST" msprop:Generator_ColumnVarNameInTable="columnPOD_CST" msprop:Generator_ColumnPropNameInRow="POD_CST" msprop:Generator_ColumnPropNameInTable="POD_CSTColumn" msprop:Generator_UserColumnName="POD_CST" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="POD_CSTAmount" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPOD_CSTAmount" msprop:Generator_ColumnPropNameInRow="POD_CSTAmount" msprop:Generator_ColumnPropNameInTable="POD_CSTAmountColumn" msprop:Generator_UserColumnName="POD_CSTAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POD_RateAmount" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPOD_RateAmount" msprop:Generator_ColumnPropNameInRow="POD_RateAmount" msprop:Generator_ColumnPropNameInTable="POD_RateAmountColumn" msprop:Generator_UserColumnName="POD_RateAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POD_Discount" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPOD_Discount" msprop:Generator_ColumnPropNameInRow="POD_Discount" msprop:Generator_ColumnPropNameInTable="POD_DiscountColumn" msprop:Generator_UserColumnName="POD_Discount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POD_DiscountAmount" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPOD_DiscountAmount" msprop:Generator_ColumnPropNameInRow="POD_DiscountAmount" msprop:Generator_ColumnPropNameInTable="POD_DiscountAmountColumn" msprop:Generator_UserColumnName="POD_DiscountAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POD_TotalAmount" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPOD_TotalAmount" msprop:Generator_ColumnPropNameInRow="POD_TotalAmount" msprop:Generator_ColumnPropNameInTable="POD_TotalAmountColumn" msprop:Generator_UserColumnName="POD_TotalAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POD_VAT" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPOD_VAT" msprop:Generator_ColumnPropNameInRow="POD_VAT" msprop:Generator_ColumnPropNameInTable="POD_VATColumn" msprop:Generator_UserColumnName="POD_VAT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POD_Excise" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPOD_Excise" msprop:Generator_ColumnPropNameInRow="POD_Excise" msprop:Generator_ColumnPropNameInTable="POD_ExciseColumn" msprop:Generator_UserColumnName="POD_Excise" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POD_Frieght" msprop:Generator_ColumnVarNameInTable="columnPOD_Frieght" msprop:Generator_ColumnPropNameInRow="POD_Frieght" msprop:Generator_ColumnPropNameInTable="POD_FrieghtColumn" msprop:Generator_UserColumnName="POD_Frieght" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="POD_FrieghtAmount" msprop:Generator_ColumnVarNameInTable="columnPOD_FrieghtAmount" msprop:Generator_ColumnPropNameInRow="POD_FrieghtAmount" msprop:Generator_ColumnPropNameInTable="POD_FrieghtAmountColumn" msprop:Generator_UserColumnName="POD_FrieghtAmount" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="POD_ExciseAmount" msprop:Generator_ColumnVarNameInTable="columnPOD_ExciseAmount" msprop:Generator_ColumnPropNameInRow="POD_ExciseAmount" msprop:Generator_ColumnPropNameInTable="POD_ExciseAmountColumn" msprop:Generator_UserColumnName="POD_ExciseAmount" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="POD_ExciseAmount1" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPOD_ExciseAmount1" msprop:Generator_ColumnPropNameInRow="POD_ExciseAmount1" msprop:Generator_ColumnPropNameInTable="POD_ExciseAmount1Column" msprop:Generator_UserColumnName="POD_ExciseAmount1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POD_VATAmount" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPOD_VATAmount" msprop:Generator_ColumnPropNameInRow="POD_VATAmount" msprop:Generator_ColumnPropNameInTable="POD_VATAmountColumn" msprop:Generator_UserColumnName="POD_VATAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POD_Unit" msprop:Generator_ColumnVarNameInTable="columnPOD_Unit" msprop:Generator_ColumnPropNameInRow="POD_Unit" msprop:Generator_ColumnPropNameInTable="POD_UnitColumn" msprop:Generator_UserColumnName="POD_Unit" type="xs:int" minOccurs="0" />
+              <xs:element name="POD_GSTRate" msprop:Generator_ColumnVarNameInTable="columnPOD_GSTRate" msprop:Generator_ColumnPropNameInRow="POD_GSTRate" msprop:Generator_ColumnPropNameInTable="POD_GSTRateColumn" msprop:Generator_UserColumnName="POD_GSTRate" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POD_GSTAmount" msprop:Generator_ColumnVarNameInTable="columnPOD_GSTAmount" msprop:Generator_ColumnPropNameInRow="POD_GSTAmount" msprop:Generator_ColumnPropNameInTable="POD_GSTAmountColumn" msprop:Generator_UserColumnName="POD_GSTAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POD_SGST" msprop:Generator_ColumnVarNameInTable="columnPOD_SGST" msprop:Generator_ColumnPropNameInRow="POD_SGST" msprop:Generator_ColumnPropNameInTable="POD_SGSTColumn" msprop:Generator_UserColumnName="POD_SGST" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POD_SGSTAmount" msprop:Generator_ColumnVarNameInTable="columnPOD_SGSTAmount" msprop:Generator_ColumnPropNameInRow="POD_SGSTAmount" msprop:Generator_ColumnPropNameInTable="POD_SGSTAmountColumn" msprop:Generator_UserColumnName="POD_SGSTAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POD_CGST" msprop:Generator_ColumnVarNameInTable="columnPOD_CGST" msprop:Generator_ColumnPropNameInRow="POD_CGST" msprop:Generator_ColumnPropNameInTable="POD_CGSTColumn" msprop:Generator_UserColumnName="POD_CGST" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POD_CGSTAmount" msprop:Generator_ColumnVarNameInTable="columnPOD_CGSTAmount" msprop:Generator_ColumnPropNameInRow="POD_CGSTAmount" msprop:Generator_ColumnPropNameInTable="POD_CGSTAmountColumn" msprop:Generator_UserColumnName="POD_CGSTAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POD_IGST" msprop:Generator_ColumnVarNameInTable="columnPOD_IGST" msprop:Generator_ColumnPropNameInRow="POD_IGST" msprop:Generator_ColumnPropNameInTable="POD_IGSTColumn" msprop:Generator_UserColumnName="POD_IGST" type="xs:decimal" minOccurs="0" />
+              <xs:element name="POD_IGSTAmount" msprop:Generator_ColumnVarNameInTable="columnPOD_IGSTAmount" msprop:Generator_ColumnPropNameInRow="POD_IGSTAmount" msprop:Generator_ColumnPropNameInTable="POD_IGSTAmountColumn" msprop:Generator_UserColumnName="POD_IGSTAmount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Inv_Code" msprop:Generator_ColumnVarNameInTable="columnInv_Code" msprop:Generator_ColumnPropNameInRow="Inv_Code" msprop:Generator_ColumnPropNameInTable="Inv_CodeColumn" msprop:Generator_UserColumnName="Inv_Code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Inv_Description" msprop:Generator_ColumnVarNameInTable="columnInv_Description" msprop:Generator_ColumnPropNameInRow="Inv_Description" msprop:Generator_ColumnPropNameInTable="Inv_DescriptionColumn" msprop:Generator_UserColumnName="Inv_Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CSM_Name" msprop:Generator_ColumnVarNameInTable="columnCSM_Name" msprop:Generator_ColumnPropNameInRow="CSM_Name" msprop:Generator_ColumnPropNameInTable="CSM_NameColumn" msprop:Generator_UserColumnName="CSM_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CSM_Address" msprop:Generator_ColumnVarNameInTable="columnCSM_Address" msprop:Generator_ColumnPropNameInRow="CSM_Address" msprop:Generator_ColumnPropNameInTable="CSM_AddressColumn" msprop:Generator_UserColumnName="CSM_Address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CSM_MobileNo" msprop:Generator_ColumnVarNameInTable="columnCSM_MobileNo" msprop:Generator_ColumnPropNameInRow="CSM_MobileNo" msprop:Generator_ColumnPropNameInTable="CSM_MobileNoColumn" msprop:Generator_UserColumnName="CSM_MobileNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CSM_EmailID" msprop:Generator_ColumnVarNameInTable="columnCSM_EmailID" msprop:Generator_ColumnPropNameInRow="CSM_EmailID" msprop:Generator_ColumnPropNameInTable="CSM_EmailIDColumn" msprop:Generator_UserColumnName="CSM_EmailID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Mas_desc" msprop:Generator_ColumnVarNameInTable="columnMas_desc" msprop:Generator_ColumnPropNameInRow="Mas_desc" msprop:Generator_ColumnPropNameInTable="Mas_descColumn" msprop:Generator_UserColumnName="Mas_desc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CUST_CODE" msprop:Generator_ColumnVarNameInTable="columnCUST_CODE" msprop:Generator_ColumnPropNameInRow="CUST_CODE" msprop:Generator_ColumnPropNameInTable="CUST_CODEColumn" msprop:Generator_UserColumnName="CUST_CODE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CUST_NAME" msprop:Generator_ColumnVarNameInTable="columnCUST_NAME" msprop:Generator_ColumnPropNameInRow="CUST_NAME" msprop:Generator_ColumnPropNameInTable="CUST_NAMEColumn" msprop:Generator_UserColumnName="CUST_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CUST_COMM_ADDRESS" msprop:Generator_ColumnVarNameInTable="columnCUST_COMM_ADDRESS" msprop:Generator_ColumnPropNameInRow="CUST_COMM_ADDRESS" msprop:Generator_ColumnPropNameInTable="CUST_COMM_ADDRESSColumn" msprop:Generator_UserColumnName="CUST_COMM_ADDRESS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CUST_EMAIL" msprop:Generator_ColumnVarNameInTable="columnCUST_EMAIL" msprop:Generator_ColumnPropNameInRow="CUST_EMAIL" msprop:Generator_ColumnPropNameInTable="CUST_EMAILColumn" msprop:Generator_UserColumnName="CUST_EMAIL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CUST_COMM_TEL" msprop:Generator_ColumnVarNameInTable="columnCUST_COMM_TEL" msprop:Generator_ColumnPropNameInRow="CUST_COMM_TEL" msprop:Generator_ColumnPropNameInTable="CUST_COMM_TELColumn" msprop:Generator_UserColumnName="CUST_COMM_TEL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="INVH_Mdate" msprop:Generator_ColumnVarNameInTable="columnINVH_Mdate" msprop:Generator_ColumnPropNameInRow="INVH_Mdate" msprop:Generator_ColumnPropNameInTable="INVH_MdateColumn" msprop:Generator_UserColumnName="INVH_Mdate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="INVH_Edate" msprop:Generator_ColumnVarNameInTable="columnINVH_Edate" msprop:Generator_ColumnPropNameInRow="INVH_Edate" msprop:Generator_ColumnPropNameInTable="INVH_EdateColumn" msprop:Generator_UserColumnName="INVH_Edate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="POM_DeliveryFrom" msprop:Generator_ColumnVarNameInTable="columnPOM_DeliveryFrom" msprop:Generator_ColumnPropNameInRow="POM_DeliveryFrom" msprop:Generator_ColumnPropNameInTable="POM_DeliveryFromColumn" msprop:Generator_UserColumnName="POM_DeliveryFrom" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="POM_DeliveryFromGSTNRegNo" msprop:Generator_ColumnVarNameInTable="columnPOM_DeliveryFromGSTNRegNo" msprop:Generator_ColumnPropNameInRow="POM_DeliveryFromGSTNRegNo" msprop:Generator_ColumnPropNameInTable="POM_DeliveryFromGSTNRegNoColumn" msprop:Generator_UserColumnName="POM_DeliveryFromGSTNRegNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="POM_DeliveryAddress" msprop:Generator_ColumnVarNameInTable="columnPOM_DeliveryAddress" msprop:Generator_ColumnPropNameInRow="POM_DeliveryAddress" msprop:Generator_ColumnPropNameInTable="POM_DeliveryAddressColumn" msprop:Generator_UserColumnName="POM_DeliveryAddress" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="POM_DeliveryGSTNRegNo" msprop:Generator_ColumnVarNameInTable="columnPOM_DeliveryGSTNRegNo" msprop:Generator_ColumnPropNameInRow="POM_DeliveryGSTNRegNo" msprop:Generator_ColumnPropNameInTable="POM_DeliveryGSTNRegNoColumn" msprop:Generator_UserColumnName="POM_DeliveryGSTNRegNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

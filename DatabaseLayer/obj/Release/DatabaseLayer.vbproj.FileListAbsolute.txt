@@ -1,0 +1,17 @@
+C:\inetpub\wwwroot\FAS\DatabaseLayer\DatabaseLayer\bin\Release\DatabaseLayer.dll
+C:\inetpub\wwwroot\FAS\DatabaseLayer\DatabaseLayer\bin\Release\DatabaseLayer.pdb
+C:\inetpub\wwwroot\FAS\DatabaseLayer\DatabaseLayer\bin\Release\DatabaseLayer.xml
+C:\inetpub\wwwroot\FAS\DatabaseLayer\DatabaseLayer\obj\Release\DatabaseLayer.Resources.resources
+C:\inetpub\wwwroot\FAS\DatabaseLayer\DatabaseLayer\obj\Release\DatabaseLayer.vbproj.GenerateResource.Cache
+C:\inetpub\wwwroot\FAS\DatabaseLayer\DatabaseLayer\obj\Release\DatabaseLayer.dll
+C:\inetpub\wwwroot\FAS\DatabaseLayer\DatabaseLayer\obj\Release\DatabaseLayer.xml
+C:\inetpub\wwwroot\FAS\DatabaseLayer\DatabaseLayer\obj\Release\DatabaseLayer.pdb
+C:\inetpub\wwwroot\FASPro\DatabaseLayer\bin\Release\DatabaseLayer.dll
+C:\inetpub\wwwroot\FASPro\DatabaseLayer\bin\Release\DatabaseLayer.pdb
+C:\inetpub\wwwroot\FASPro\DatabaseLayer\bin\Release\DatabaseLayer.xml
+C:\inetpub\wwwroot\FASPro\DatabaseLayer\obj\Release\DatabaseLayer.vbprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\FASPro\DatabaseLayer\obj\Release\DatabaseLayer.Resources.resources
+C:\inetpub\wwwroot\FASPro\DatabaseLayer\obj\Release\DatabaseLayer.vbproj.GenerateResource.Cache
+C:\inetpub\wwwroot\FASPro\DatabaseLayer\obj\Release\DatabaseLayer.dll
+C:\inetpub\wwwroot\FASPro\DatabaseLayer\obj\Release\DatabaseLayer.xml
+C:\inetpub\wwwroot\FASPro\DatabaseLayer\obj\Release\DatabaseLayer.pdb

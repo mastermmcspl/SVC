@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BankReconDashboard" targetNamespace="http://tempuri.org/BankReconDashboard.xsd" xmlns:mstns="http://tempuri.org/BankReconDashboard.xsd" xmlns="http://tempuri.org/BankReconDashboard.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BankReconDashboard" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="BankReconDashboard" msprop:Generator_UserDSName="BankReconDashboard">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BankRecdashborad" msprop:Generator_TableClassName="BankRecdashboradDataTable" msprop:Generator_TableVarName="tableBankRecdashborad" msprop:Generator_TablePropName="BankRecdashborad" msprop:Generator_RowDeletingName="BankRecdashboradRowDeleting" msprop:Generator_RowChangingName="BankRecdashboradRowChanging" msprop:Generator_RowEvHandlerName="BankRecdashboradRowChangeEventHandler" msprop:Generator_RowDeletedName="BankRecdashboradRowDeleted" msprop:Generator_UserTableName="BankRecdashborad" msprop:Generator_RowChangedName="BankRecdashboradRowChanged" msprop:Generator_RowEvArgName="BankRecdashboradRowChangeEvent" msprop:Generator_RowClassName="BankRecdashboradRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SrNo" msprop:Generator_ColumnVarNameInTable="columnSrNo" msprop:Generator_ColumnPropNameInRow="SrNo" msprop:Generator_ColumnPropNameInTable="SrNoColumn" msprop:Generator_UserColumnName="SrNo" type="xs:string" minOccurs="0" />
+              <xs:element name="BankName" msprop:Generator_ColumnVarNameInTable="columnBankName" msprop:Generator_ColumnPropNameInRow="BankName" msprop:Generator_ColumnPropNameInTable="BankNameColumn" msprop:Generator_UserColumnName="BankName" type="xs:string" minOccurs="0" />
+              <xs:element name="fromDate" msprop:Generator_ColumnVarNameInTable="columnfromDate" msprop:Generator_ColumnPropNameInRow="fromDate" msprop:Generator_ColumnPropNameInTable="fromDateColumn" msprop:Generator_UserColumnName="fromDate" type="xs:string" minOccurs="0" />
+              <xs:element name="Todate" msprop:Generator_ColumnVarNameInTable="columnTodate" msprop:Generator_ColumnPropNameInRow="Todate" msprop:Generator_ColumnPropNameInTable="TodateColumn" msprop:Generator_UserColumnName="Todate" type="xs:string" minOccurs="0" />
+              <xs:element name="SerialNo" msprop:Generator_ColumnVarNameInTable="columnSerialNo" msprop:Generator_ColumnPropNameInRow="SerialNo" msprop:Generator_ColumnPropNameInTable="SerialNoColumn" msprop:Generator_UserColumnName="SerialNo" type="xs:string" minOccurs="0" />
+              <xs:element name="TrType" msprop:Generator_ColumnVarNameInTable="columnTrType" msprop:Generator_ColumnPropNameInRow="TrType" msprop:Generator_ColumnPropNameInTable="TrTypeColumn" msprop:Generator_UserColumnName="TrType" type="xs:string" minOccurs="0" />
+              <xs:element name="ChequeDate" msprop:Generator_ColumnVarNameInTable="columnChequeDate" msprop:Generator_ColumnPropNameInRow="ChequeDate" msprop:Generator_ColumnPropNameInTable="ChequeDateColumn" msprop:Generator_UserColumnName="ChequeDate" type="xs:string" minOccurs="0" />
+              <xs:element name="Debit" msprop:Generator_ColumnVarNameInTable="columnDebit" msprop:Generator_ColumnPropNameInRow="Debit" msprop:Generator_ColumnPropNameInTable="DebitColumn" msprop:Generator_UserColumnName="Debit" type="xs:string" minOccurs="0" />
+              <xs:element name="Credit" msprop:Generator_ColumnVarNameInTable="columnCredit" msprop:Generator_ColumnPropNameInRow="Credit" msprop:Generator_ColumnPropNameInTable="CreditColumn" msprop:Generator_UserColumnName="Credit" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="BnkID" msprop:Generator_ColumnVarNameInTable="columnBnkID" msprop:Generator_ColumnPropNameInRow="BnkID" msprop:Generator_ColumnPropNameInTable="BnkIDColumn" msprop:Generator_UserColumnName="BnkID" type="xs:string" minOccurs="0" />
+              <xs:element name="CCredit" msprop:Generator_ColumnVarNameInTable="columnCCredit" msprop:Generator_ColumnPropNameInRow="CCredit" msprop:Generator_ColumnPropNameInTable="CCreditColumn" msprop:Generator_UserColumnName="CCredit" type="xs:string" minOccurs="0" />
+              <xs:element name="CDabit" msprop:Generator_ColumnVarNameInTable="columnCDabit" msprop:Generator_ColumnPropNameInRow="CDabit" msprop:Generator_ColumnPropNameInTable="CDabitColumn" msprop:Generator_UserColumnName="CDabit" type="xs:string" minOccurs="0" />
+              <xs:element name="ABR_ValueDate" msprop:Generator_ColumnVarNameInTable="columnABR_ValueDate" msprop:Generator_ColumnPropNameInRow="ABR_ValueDate" msprop:Generator_ColumnPropNameInTable="ABR_ValueDateColumn" msprop:Generator_UserColumnName="ABR_ValueDate" type="xs:string" minOccurs="0" />
+              <xs:element name="Remark" msprop:Generator_ColumnVarNameInTable="columnRemark" msprop:Generator_ColumnPropNameInRow="Remark" msprop:Generator_ColumnPropNameInTable="RemarkColumn" msprop:Generator_UserColumnName="Remark" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PettyCashDayBook" targetNamespace="http://tempuri.org/PettyCashDayBook.xsd" xmlns:mstns="http://tempuri.org/PettyCashDayBook.xsd" xmlns="http://tempuri.org/PettyCashDayBook.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PettyCashDayBook" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="PettyCashDayBook" msprop:Generator_UserDSName="PettyCashDayBook">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PettyCashDayBook" msprop:Generator_TableClassName="PettyCashDayBookDataTable" msprop:Generator_TableVarName="tablePettyCashDayBook" msprop:Generator_RowChangedName="PettyCashDayBookRowChanged" msprop:Generator_TablePropName="_PettyCashDayBook" msprop:Generator_RowDeletingName="PettyCashDayBookRowDeleting" msprop:Generator_RowChangingName="PettyCashDayBookRowChanging" msprop:Generator_RowEvHandlerName="PettyCashDayBookRowChangeEventHandler" msprop:Generator_RowDeletedName="PettyCashDayBookRowDeleted" msprop:Generator_RowClassName="PettyCashDayBookRow" msprop:Generator_UserTableName="PettyCashDayBook" msprop:Generator_RowEvArgName="PettyCashDayBookRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CashReceived" msprop:Generator_ColumnVarNameInTable="columnCashReceived" msprop:Generator_ColumnPropNameInRow="CashReceived" msprop:Generator_ColumnPropNameInTable="CashReceivedColumn" msprop:Generator_UserColumnName="CashReceived" type="xs:string" minOccurs="0" />
+              <xs:element name="C_B_Folio" msprop:Generator_ColumnVarNameInTable="columnC_B_Folio" msprop:Generator_ColumnPropNameInRow="C_B_Folio" msprop:Generator_ColumnPropNameInTable="C_B_FolioColumn" msprop:Generator_UserColumnName="C_B_Folio" type="xs:string" minOccurs="0" />
+              <xs:element name="Particulars" msprop:Generator_ColumnVarNameInTable="columnParticulars" msprop:Generator_ColumnPropNameInRow="Particulars" msprop:Generator_ColumnPropNameInTable="ParticularsColumn" msprop:Generator_UserColumnName="Particulars" type="xs:string" minOccurs="0" />
+              <xs:element name="V_No" msprop:Generator_ColumnVarNameInTable="columnV_No" msprop:Generator_ColumnPropNameInRow="V_No" msprop:Generator_ColumnPropNameInTable="V_NoColumn" msprop:Generator_UserColumnName="V_No" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalPayment" msprop:Generator_ColumnVarNameInTable="columnTotalPayment" msprop:Generator_ColumnPropNameInRow="TotalPayment" msprop:Generator_ColumnPropNameInTable="TotalPaymentColumn" msprop:Generator_UserColumnName="TotalPayment" type="xs:string" minOccurs="0" />
+              <xs:element name="PostageAndStamps" msprop:Generator_ColumnVarNameInTable="columnPostageAndStamps" msprop:Generator_ColumnPropNameInRow="PostageAndStamps" msprop:Generator_ColumnPropNameInTable="PostageAndStampsColumn" msprop:Generator_UserColumnName="PostageAndStamps" type="xs:string" minOccurs="0" />
+              <xs:element name="Cartage" msprop:Generator_ColumnVarNameInTable="columnCartage" msprop:Generator_ColumnPropNameInRow="Cartage" msprop:Generator_ColumnPropNameInTable="CartageColumn" msprop:Generator_UserColumnName="Cartage" type="xs:string" minOccurs="0" />
+              <xs:element name="Stationery" msprop:Generator_ColumnVarNameInTable="columnStationery" msprop:Generator_ColumnPropNameInRow="Stationery" msprop:Generator_ColumnPropNameInTable="StationeryColumn" msprop:Generator_UserColumnName="Stationery" type="xs:string" minOccurs="0" />
+              <xs:element name="Traveling" msprop:Generator_ColumnVarNameInTable="columnTraveling" msprop:Generator_ColumnPropNameInRow="Traveling" msprop:Generator_ColumnPropNameInTable="TravelingColumn" msprop:Generator_UserColumnName="Traveling" type="xs:string" minOccurs="0" />
+              <xs:element name="Misc" msprop:Generator_ColumnVarNameInTable="columnMisc" msprop:Generator_ColumnPropNameInRow="Misc" msprop:Generator_ColumnPropNameInTable="MiscColumn" msprop:Generator_UserColumnName="Misc" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

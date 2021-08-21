@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AssetAdditionRpt" targetNamespace="http://tempuri.org/AssetAdditionRpt.xsd" xmlns:mstns="http://tempuri.org/AssetAdditionRpt.xsd" xmlns="http://tempuri.org/AssetAdditionRpt.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AssetAdditionRpt" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="AssetAdditionRpt" msprop:Generator_UserDSName="AssetAdditionRpt">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AssetAddition" msprop:Generator_TableClassName="AssetAdditionDataTable" msprop:Generator_TableVarName="tableAssetAddition" msprop:Generator_TablePropName="AssetAddition" msprop:Generator_RowDeletingName="AssetAdditionRowDeleting" msprop:Generator_RowChangingName="AssetAdditionRowChanging" msprop:Generator_RowEvHandlerName="AssetAdditionRowChangeEventHandler" msprop:Generator_RowDeletedName="AssetAdditionRowDeleted" msprop:Generator_UserTableName="AssetAddition" msprop:Generator_RowChangedName="AssetAdditionRowChanged" msprop:Generator_RowEvArgName="AssetAdditionRowChangeEvent" msprop:Generator_RowClassName="AssetAdditionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SrNo" msprop:Generator_ColumnVarNameInTable="columnSrNo" msprop:Generator_ColumnPropNameInRow="SrNo" msprop:Generator_ColumnPropNameInTable="SrNoColumn" msprop:Generator_UserColumnName="SrNo" type="xs:string" minOccurs="0" />
+              <xs:element name="AFAA_ID" msprop:Generator_ColumnVarNameInTable="columnAFAA_ID" msprop:Generator_ColumnPropNameInRow="AFAA_ID" msprop:Generator_ColumnPropNameInTable="AFAA_IDColumn" msprop:Generator_UserColumnName="AFAA_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="AFAA_AssetNo" msprop:Generator_ColumnVarNameInTable="columnAFAA_AssetNo" msprop:Generator_ColumnPropNameInRow="AFAA_AssetNo" msprop:Generator_ColumnPropNameInTable="AFAA_AssetNoColumn" msprop:Generator_UserColumnName="AFAA_AssetNo" type="xs:string" minOccurs="0" />
+              <xs:element name="AssetType" msprop:Generator_ColumnVarNameInTable="columnAssetType" msprop:Generator_ColumnPropNameInRow="AssetType" msprop:Generator_ColumnPropNameInTable="AssetTypeColumn" msprop:Generator_UserColumnName="AssetType" type="xs:string" minOccurs="0" />
+              <xs:element name="AssetRefNo" msprop:Generator_ColumnVarNameInTable="columnAssetRefNo" msprop:Generator_ColumnPropNameInRow="AssetRefNo" msprop:Generator_ColumnPropNameInTable="AssetRefNoColumn" msprop:Generator_UserColumnName="AssetRefNo" type="xs:string" minOccurs="0" />
+              <xs:element name="Supplier" msprop:Generator_ColumnVarNameInTable="columnSupplier" msprop:Generator_ColumnPropNameInRow="Supplier" msprop:Generator_ColumnPropNameInTable="SupplierColumn" msprop:Generator_UserColumnName="Supplier" type="xs:string" minOccurs="0" />
+              <xs:element name="PurchaseDate" msprop:Generator_ColumnVarNameInTable="columnPurchaseDate" msprop:Generator_ColumnPropNameInRow="PurchaseDate" msprop:Generator_ColumnPropNameInTable="PurchaseDateColumn" msprop:Generator_UserColumnName="PurchaseDate" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

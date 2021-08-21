@@ -1,0 +1,23 @@
+
+create procedure [dbo].[spMMCSPL_DB_Access]
+(				
+@MDA_ID  int, 
+@MDA_DatabaseName varchar(5000),
+@MDA_AccessCode varchar(500),
+@MDA_CompanyName Varchar(5000),
+@MDA_CreatedDate  datetime,
+@MDA_IPAddress  varchar(100),
+@MDA_Application int,
+@iUpdateOrSave int Output,     
+@iOper int Output               
+)          
+ as            
+   begin  
+   set @MDA_ID=(select isnull(max(MDA_ID)+1,1) from MMCSPL_DB_Access)
+   Insert into MMCSPL_DB_Access (MDA_ID,MDA_DatabaseName,MDA_AccessCode,MDA_CompanyName,
+                  MDA_CreatedDate,MDA_IPAddress,MDA_Application) values 
+                 (@MDA_ID,@MDA_DatabaseName,@MDA_AccessCode,@MDA_CompanyName,
+                  GetDate(),@MDA_IPAddress,@MDA_Application)
+	set @iUpdateOrSave=3       
+	set @iOper = @MDA_ID      
+	end

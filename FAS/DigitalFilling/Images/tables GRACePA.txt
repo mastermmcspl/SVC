@@ -1,0 +1,286 @@
+net information
+
+use RIL
+
+use TRACeRelolddata
+
+use RILJANlatest( Backup of TRACeRelolddata)
+
+use riljan13(has to migrate table)
+
+use TRACeRLIUAT
+
+
+For changing pswrd to 'a'
+=========================
+Update Sad_UserDetails Set Usr_Password='ec6KtO1HVN6FYKLkcCVtkA==' Where Usr_ID=
+
+For Date change
+===============
+Update LC_IssueTracker set LCST_ActionDate=GetDate()-1
+
+
+' testing -- testing ; testing INSERT testing DELETE testing TRUNCATE testing ALTER testing DROP testing 
+
+Process Masters
+===============
+select * from mst_entity_master order by ent_id
+
+select * from MST_SUBENTITY_MASTER order by sem_id
+
+select * from MST_PROCESS_MASTER order by pm_id
+
+select * from MST_SUBPROCESS_MASTER order by spm_id
+
+
+
+Risk Masters
+============
+Select * from MST_RISK_Library order by mrl_pkid
+
+Select * from MST_CONTROL_Library order by mcl_pkid
+
+Select * from MST_Checks_Master order by chk_id
+
+Select * from Risk_GeneralMaster
+
+
+
+
+select * from mst_entity_master order by ent_id
+truncate table mst_entity_master
+
+select * from MST_SUBENTITY_MASTER order by sem_id
+truncate table MST_SUBENTITY_MASTER
+
+select * from MST_PROCESS_MASTER order by pm_id
+truncate table MST_PROCESS_MASTER
+
+select * from MST_SUBPROCESS_MASTER order by spm_id
+truncate table MST_SUBPROCESS_MASTER
+
+Select * from MST_RISK_Library order by mrl_pkid
+truncate table MST_RISK_Library
+
+Select * from MST_CONTROL_Library order by mcl_pkid
+truncate table MST_CONTROL_Library
+
+Select * from MST_Checks_Master order by chk_id
+truncate table MST_Checks_Master
+
+Select * from Risk_GeneralMaster
+
+select * from mst_mapping_master
+truncate table mst_mapping_master
+
+
+
+
+
+Turncate Table EDT_Attachments
+Turncate Table Audit_Log_Form_Operations
+
+
+
+
+
+
+--------------------**********************************************-----------------------------
+
+
+GRACePA tables
+==============
+
+E-Profile tables
+================
+
+
+truncate table SAD_UserEMP_Address
+truncate table SAD_UserEMP_ProfExperiance
+truncate table SAD_UserEMP_AssetsLoan
+truncate table SAD_UserEMP_AcademicProgress
+truncate table SAD_UserEMP_TransferFirm
+truncate table Sad_UserEMP_Assessment
+truncate table Sad_UserEMP_Courses
+truncate table Sad_UserEMP_ParticularsofArticles
+truncate table Sad_UserEMP_Qualification
+truncate table Sad_UserEMP_SpecialMentions
+
+
+KnowledgeBase table
+---------------------------
+
+select * from SAD_Knowledge_Master
+
+
+
+Customer Master table
+---------------------------
+
+select * from SAD_CUSTOMER_MASTER
+select * from SAD_CUSTOMER_DETAILS
+select * from SAD_CUST_Accounting_Template
+select * from SAD_CUST_LOCATION
+select * from SAD_CUST_LOE
+select * from LOE_Resources
+select * from LOE_AdditionalFees
+select * from LOE_ReAmbersment
+select * from LOE_Template
+
+
+
+truncate table SAD_CUSTOMER_MASTER
+truncate table SAD_CUSTOMER_DETAILS
+truncate table SAD_CUST_Accounting_Template
+truncate table SAD_CUST_LOCATION
+truncate table SAD_CUST_LOE
+truncate table LOE_Resources
+truncate table LOE_AdditionalFees
+truncate table LOE_ReAmbersment
+truncate table LOE_Template
+
+ 
+select * from SAD_IssueKnowledgeBase_Master
+truncate table SAD_IssueKnowledgeBase_Master
+
+
+
+
+Audit
+-------------------------------------------
+select * from Audit_AnnualPlan
+select * from Audit_APM_Details
+select * from Audit_APM_ChecksMatrix
+select * from Audit_APM_Assignment_Details
+select * from Audit_TimeCostBudgetDetails
+select * from Audit_TimeCostBudgetMaster
+select * from Audit_CostBudgetDetails
+select * from Audit_PlanSignOff
+select * from Audit_WorkPaper
+select * from Audit_WorkPaper_History
+select * from Audit_IssueTracker_Details
+select * from Audit_IssueTracker_History
+select * from Audit_ARA
+select * from Audit_ARA_Details
+select * from GRACe_OverallFunctionRating_Details
+select * from Audit_TimeSheet
+select * from Audit_CostSheetDetails
+select * from Trace_CompanyDetails
+select * from Audit_ExecutiveSummary
+select * from Audit_SignOff
+select * from Audit_DRLLog
+select * from Audit_Doc_Request_List
+select * from Sample_selection
+
+truncate table Audit_AnnualPlan
+truncate table Audit_APM_Details
+truncate table Audit_APM_ChecksMatrix
+truncate table Audit_APM_Assignment_Details
+truncate table Audit_TimeCostBudgetDetails
+truncate table Audit_TimeCostBudgetMaster
+truncate table Audit_CostBudgetDetails
+truncate table Audit_PlanSignOff
+truncate table Audit_WorkPaper
+truncate table Audit_WorkPaper_History
+truncate table Audit_IssueTracker_Details
+truncate table Audit_IssueTracker_History
+truncate table Audit_ARA
+truncate table Audit_ARA_Details
+truncate table GRACe_OverallFunctionRating_Details
+truncate table Audit_TimeSheet
+truncate table Audit_CostSheetDetails
+truncate table Trace_CompanyDetails
+truncate table Audit_ExecutiveSummary
+truncate table Audit_SignOff
+truncate table Audit_DRLLog
+truncate table Audit_Doc_Request_List
+truncate table Sample_selection
+
+
+
+
+
+Masters
+-----------------------------------------
+select * from Fla_LeaveDetails
+select * from Sad_Finalisation_Report_Contents
+select * from SAD_Finalisation_Report_Template
+select * from SAD_IssueKnowledgeBase_Master
+select * from SAD_Knowledge_Master
+select * from SAD_EmpCategory_Charges
+Select * from SAD_UsrOrGrp_Permission
+Select * from Edt_Attachments
+select * from Audit_Log_Form_Operations
+
+truncate table Fla_LeaveDetails
+delete from Sad_Finalisation_Report_Contents where fpt_id > 5
+truncate table SAD_Finalisation_Report_Template
+truncate table SAD_IssueKnowledgeBase_Master
+truncate table SAD_Knowledge_Master
+truncate table SAD_EmpCategory_Charges
+Truncate Table SAD_UsrOrGrp_Permission
+truncate table Edt_Attachments
+truncate table Audit_Log_Form_Operations
+
+
+
+Digital Filling
+------------------
+select * from EDT_CABINET
+select * from EDT_FOLDER
+select * from EDT_PAGE
+select * from EDT_DESCRIPTIOS
+select * from EDT_DESCRIPTIOS_log
+select * from EDT_DOCUMENT_TYPE
+select * from EDT_DOCUMENT_TYPE_log
+select * from EDT_PAGE_DETAILS
+
+
+truncate table EDT_CABINET
+truncate table EDT_FOLDER
+truncate table EDT_PAGE
+truncate table EDT_DESCRIPTIOS
+truncate table EDT_DESCRIPTIOS_log
+truncate table EDT_DOCUMENT_TYPE
+truncate table EDT_DOCUMENT_TYPE_log
+truncate table EDT_PAGE_DETAILS
+
+
+EMAil
+-----------------------------------
+select * from Edt_OutlookAttach
+
+truncate table Edt_OutlookAttach
+
+
+
+Accounts
+----------------------------------
+select * from ACC_General_Master
+select * from Chart_Of_Accounts
+select * from acc_Opening_Balance
+select * from Acc_JE_Master
+select * from Acc_JE_Master_History
+select * from ACC_Voucher_Settings
+select * from SAD_GRPORLVL_GENERAL_MASTER
+select * from Acc_Transactions_Details
+select * from Trace_Report_Master
+select * from acc_FixedAssets_Transaction
+select * from Trace_Report_Master
+select * from acc_FixedAssets_Transaction
+select * from Schedule_Linkage_Master
+
+
+truncate table ACC_General_Master
+truncate table Chart_Of_Accounts
+truncate table acc_Opening_Balance
+truncate table Acc_JE_Master
+truncate table Acc_JE_Master_History
+truncate table ACC_Voucher_Settings
+truncate table SAD_GRPORLVL_GENERAL_MASTER
+truncate table Acc_Transactions_Details
+truncate table Trace_Report_Master
+truncate table acc_FixedAssets_Transaction
+truncate table Trace_Report_Master
+truncate table acc_FixedAssets_Transaction
+truncate table Schedule_Linkage_Master

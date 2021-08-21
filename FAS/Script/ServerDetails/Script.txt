@@ -1,0 +1,46 @@
+CREATE TABLE MMCSPL_Customer_Details(
+	MCD_CD_PKID int IDENTITY(1,1) NOT NULL,
+	MCD_CD_RegNo varchar(50) NULL,
+	MCD_CD_CompanyName varchar(100) NULL,
+	MCD_CD_CompanyWebsite varchar(100) NULL,
+	MCD_CD_EmailID varchar(100) NULL,
+	MCD_CD_Telephoneno varchar(20) NULL,
+	MCD_CD_Mobilenumber varchar(20) NULL,
+	MCD_CD_ContactPerson varchar(100) NULL,
+	MCD_CD_Address varchar(500) NULL,
+	MCD_CD_ProductInterest int NULL,
+	MCD_CD_Reason int NULL,
+	MCD_CD_Aboutus int NULL,
+	MCD_IPAddress varchar(25) NULL,
+	MCD_DateTime varchar(50) NULL
+)
+
+CREATE TABLE MMCSPL_DB_Access(
+	MDA_ID int NOT NULL,
+	MDA_DatabaseName varchar(5000) NULL,
+	MDA_AccessCode varchar(500) NULL,
+	MDA_CompanyName varchar(5000) NULL,
+	MDA_CreatedDate datetime NULL,
+	MDA_IPAddress varchar(100) NULL,
+	MDA_Application int NULL
+)
+
+CREATE TABLE MMCSPL_AuditLogin(
+	MA_ID bigint IDENTITY(1,1) NOT NULL,
+	MA_UserID int NULL,
+	MA_DateTime varchar(50) NULL,
+	MA_IPAddress varchar(25) NULL
+)
+
+CREATE TABLE MMCSPL_UserLogin(
+	MUL_PKID int NULL,
+	MUL_FullName varchar(100) NULL,
+	MUL_LoginName varchar(100) NULL,
+	MUL_Password varchar(500) NULL,
+	MUL_LastLogindate datetime NULL,
+	MUL_CreatedBy varchar(50) NULL,
+	MUL_CreatedOn datetime NULL,
+	MUL_UnSuccessfullAttempts int NULL,
+	MUL_NoOfLogins int NULL,
+	MUL_IPAddress varchar(25) NULL
+)

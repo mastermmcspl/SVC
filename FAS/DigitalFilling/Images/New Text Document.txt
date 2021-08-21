@@ -1,0 +1,10 @@
+warning
+info
+error
+success                                                                  
+
+    <link rel="stylesheet" href="../StyleSheet/sweetalert.css" type="text/css" />
+
+  <script type="text/javascript" src="../JavaScripts/sweetalert-dev.js"></script>
+
+   ScriptManager.RegisterStartupScript(Me, Me.GetType(), "Popup", "swal('Select User to Activate','', 'warning');", True)                                                                                                                                                                                                                      

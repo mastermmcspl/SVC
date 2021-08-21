@@ -1,0 +1,30 @@
+use gracepanew
+
+
+delete from customer_coa
+
+select * from customer_coa where cc_parent = 290
+
+select distinct( a.CC_ID ),b.gl_id as GL ,c.gl_id as SubGP,d.gl_id as gp from customer_coa  a
+join Chart_Of_Accounts b on a.cc_parent = b.gl_id
+join Chart_Of_Accounts c on b.gl_parent = c.gl_id
+join Chart_Of_Accounts d on c.gl_parent = d.gl_id
+ where a.cc_parent = 290 and b.gl_CustID = 3  
+
+select CLM_GLLedger from CustomerGL_Linkage_Master where CLM_custid=3 and CLM_compid=1 and CLM_GLID=290
+
+delete from CustomerGL_Linkage_Master
+
+select cast( count(*) as decimal) from customer_coa where cc_custid=3 and  cc_parent=147
+
+select * from Chart_Of_Accounts where gl_custid=3 and  gl_id= 30
+
+select * from Chart_Of_Accounts where gl_custid=3 and   gl_parent=27
+
+
+select * from Chart_Of_Accounts where
+
+select * from CustomerGL_Linkage_Master
+
+
+sp_helptext spCustomer_COA

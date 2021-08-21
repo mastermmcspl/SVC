@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsScheduleNote" targetNamespace="http://tempuri.org/dsScheduleNote.xsd" xmlns:mstns="http://tempuri.org/dsScheduleNote.xsd" xmlns="http://tempuri.org/dsScheduleNote.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsScheduleNote" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsScheduleNote" msprop:Generator_UserDSName="dsScheduleNote">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Schedule_x0020_Notes" msprop:Generator_TableClassName="Schedule_NotesDataTable" msprop:Generator_TableVarName="tableSchedule_Notes" msprop:Generator_RowChangedName="Schedule_NotesRowChanged" msprop:Generator_TablePropName="Schedule_Notes" msprop:Generator_RowDeletingName="Schedule_NotesRowDeleting" msprop:Generator_RowChangingName="Schedule_NotesRowChanging" msprop:Generator_RowEvHandlerName="Schedule_NotesRowChangeEventHandler" msprop:Generator_RowDeletedName="Schedule_NotesRowDeleted" msprop:Generator_RowClassName="Schedule_NotesRow" msprop:Generator_UserTableName="Schedule Notes" msprop:Generator_RowEvArgName="Schedule_NotesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Particulars" msprop:Generator_ColumnVarNameInTable="columnParticulars" msprop:Generator_ColumnPropNameInRow="Particulars" msprop:Generator_ColumnPropNameInTable="ParticularsColumn" msprop:Generator_UserColumnName="Particulars" type="xs:string" minOccurs="0" />
+              <xs:element name="PresentYear" msprop:Generator_ColumnVarNameInTable="columnPresentYear" msprop:Generator_ColumnPropNameInRow="PresentYear" msprop:Generator_ColumnPropNameInTable="PresentYearColumn" msprop:Generator_UserColumnName="PresentYear" type="xs:string" minOccurs="0" />
+              <xs:element name="LastYear" msprop:Generator_ColumnVarNameInTable="columnLastYear" msprop:Generator_ColumnPropNameInRow="LastYear" msprop:Generator_ColumnPropNameInTable="LastYearColumn" msprop:Generator_UserColumnName="LastYear" type="xs:string" minOccurs="0" />
+              <xs:element name="PCrDr" msprop:Generator_ColumnVarNameInTable="columnPCrDr" msprop:Generator_ColumnPropNameInRow="PCrDr" msprop:Generator_ColumnPropNameInTable="PCrDrColumn" msprop:Generator_UserColumnName="PCrDr" type="xs:string" minOccurs="0" />
+              <xs:element name="LCrDr" msprop:Generator_ColumnVarNameInTable="columnLCrDr" msprop:Generator_ColumnPropNameInRow="LCrDr" msprop:Generator_ColumnPropNameInTable="LCrDrColumn" msprop:Generator_UserColumnName="LCrDr" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

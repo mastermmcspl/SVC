@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2EBF8F08-604D-496E-A50E-C1C9C35FFDD8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BusinesLayer</RootNamespace>
+    <AssemblyName>BusinesLayer</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BusinesLayer.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BusinesLayer.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accounts\clsAccountSetting.vb" />
+    <Compile Include="Accounts\ClsAccountStock.vb" />
+    <Compile Include="Accounts\clsAttachments.vb" />
+    <Compile Include="Accounts\clsAuxilaryReport.vb" />
+    <Compile Include="Accounts\clsBankReconcilationMaster.vb" />
+    <Compile Include="Accounts\clsBankReconciliation.vb" />
+    <Compile Include="Accounts\clsBillDashboard.vb" />
+    <Compile Include="Accounts\clsChequeDetails.vb" />
+    <Compile Include="Accounts\clsFixedAsset.vb" />
+    <Compile Include="Accounts\clsFixedAssetJournalEntry.vb" />
+    <Compile Include="Accounts\clsFixedAssetMaster.vb" />
+    <Compile Include="Accounts\clsJournalEntry.vb" />
+    <Compile Include="Accounts\ClsNonTradingDashBoard.vb" />
+    <Compile Include="Accounts\clsOpeningBalance.vb" />
+    <Compile Include="Accounts\clsPayment.vb" />
+    <Compile Include="Accounts\clsPettyCash.vb" />
+    <Compile Include="Accounts\ClsPettyCashDayBook.vb" />
+    <Compile Include="Accounts\ClsPurchaseSalesJE.vb" />
+    <Compile Include="Accounts\ClsPurchaseSalesJEDetails.vb" />
+    <Compile Include="Accounts\clsPurchaseVoucher.vb" />
+    <Compile Include="Accounts\clsReceipt.vb" />
+    <Compile Include="Accounts\clsSalesTranscation.vb" />
+    <Compile Include="Accounts\ClsValueReport.vb" />
+    <Compile Include="AppConfig\AppException.vb" />
+    <Compile Include="AppConfig\ErrorClass.vb" />
+    <Compile Include="clsCustomerDetails.vb" />
+    <Compile Include="clsServerDB.vb" />
+    <Compile Include="CustclsLogin.vb" />
+    <Compile Include="Dashboard\clsAccountDashBoard.vb" />
+    <Compile Include="DigitalFilling\clsCabinet.vb" />
+    <Compile Include="DigitalFilling\clsCollation.vb" />
+    <Compile Include="DigitalFilling\clsDescriptor.vb" />
+    <Compile Include="DigitalFilling\clsDigitalFilingDashboard.vb" />
+    <Compile Include="DigitalFilling\clsDocumentType.vb" />
+    <Compile Include="DigitalFilling\clsEDICTGeneral.vb" />
+    <Compile Include="DigitalFilling\clsFolders.vb" />
+    <Compile Include="DigitalFilling\clsIndexing.vb" />
+    <Compile Include="DigitalFilling\clsNormalScan.vb" />
+    <Compile Include="DigitalFilling\clsSubCabinet.vb" />
+    <Compile Include="FixedAsset\ClsAssetAdditionalDtls.vb" />
+    <Compile Include="FixedAsset\ClsAssetAdditionDashBoard.vb" />
+    <Compile Include="FixedAsset\ClsAssetOpeningBalExcelUpload.vb" />
+    <Compile Include="FixedAsset\ClsAssetRegister.vb" />
+    <Compile Include="FixedAsset\ClsAssetTransactionAddition.vb" />
+    <Compile Include="FixedAsset\ClsAssetTransactionDeletion.vb" />
+    <Compile Include="FixedAsset\ClsDepreciationComputation.vb" />
+    <Compile Include="FixedAsset\ClsFexedAsst.vb" />
+    <Compile Include="FixedAsset\ClsFXADynamicReport.vb" />
+    <Compile Include="FixedAsset\ClsPhysicalRPTVerification.vb" />
+    <Compile Include="General\AllSession.vb" />
+    <Compile Include="General\clsAllActiveMaster.vb" />
+    <Compile Include="General\clsGeneralFunctions.vb" />
+    <Compile Include="General\clsFASGeneral.vb" />
+    <Compile Include="General\clsFASPermission.vb" />
+    <Compile Include="Inventory\clsInventoryMaster.vb" />
+    <Compile Include="Inventory\clsInventoryMasterUpload.vb" />
+    <Compile Include="Inventory\clsStockAdjustment.vb" />
+    <Compile Include="Inventory\clsStockTransfar.vb" />
+    <Compile Include="Login\clsCPFP.vb" />
+    <Compile Include="Login\clsLogin.vb" />
+    <Compile Include="Logistics\clsCustBilling.vb" />
+    <Compile Include="Logistics\clsCustBillReport.vb" />
+    <Compile Include="Logistics\clsDriverBilling.vb" />
+    <Compile Include="Logistics\clsDriverBillReport.vb" />
+    <Compile Include="Logistics\clsDynamicReport.vb" />
+    <Compile Include="Logistics\clsPumpBilling.vb" />
+    <Compile Include="Logistics\clsPumpBillReport.vb" />
+    <Compile Include="Logistics\clsTripGeneration.vb" />
+    <Compile Include="Masters\clsAdminMaster.vb" />
+    <Compile Include="Masters\clsAgencyCurrency.vb" />
+    <Compile Include="Masters\clsApplicationSettings.vb" />
+    <Compile Include="Masters\ClsAssetMaster.vb" />
+    <Compile Include="Masters\clsBankCurrency.vb" />
+    <Compile Include="Masters\clsBranchMaster.vb" />
+    <Compile Include="Masters\clsChartOfAccounts.vb" />
+    <Compile Include="General\clsCheckMasterIsInUse.vb" />
+    <Compile Include="Masters\clsCompanyMaster.vb" />
+    <Compile Include="Masters\clsCurrencyMaster.vb" />
+    <Compile Include="Masters\clsCustomer.vb" />
+    <Compile Include="Masters\clsDieselPumpMaster.vb" />
+    <Compile Include="Masters\clsDriverMaster.vb" />
+    <Compile Include="Masters\ClsEmployeeMaster.vb" />
+    <Compile Include="Masters\clsExcelUpload.vb" />
+    <Compile Include="Masters\clsFinancialYear.vb" />
+    <Compile Include="Masters\clsForeignExchangeAgents.vb" />
+    <Compile Include="Masters\clsGeneralMaster.vb" />
+    <Compile Include="Masters\clsHolidayMaster.vb" />
+    <Compile Include="Masters\clsInvenotryDetails.vb" />
+    <Compile Include="Masters\clsOrgStructure.vb" />
+    <Compile Include="Masters\clsPartyMasters.vb" />
+    <Compile Include="Masters\ClsPrintSettings.vb" />
+    <Compile Include="Masters\clsRouteMaster.vb" />
+    <Compile Include="Masters\clsScheduleLinkage.vb" />
+    <Compile Include="Masters\clsSettings.vb" />
+    <Compile Include="Masters\clsSupplierMaster.vb" />
+    <Compile Include="Masters\clsTRACeKnowledge.vb" />
+    <Compile Include="Masters\clsUsersUpload.vb" />
+    <Compile Include="Masters\clsVehicleMaster.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Permission\clsModulePermission.vb" />
+    <Compile Include="Purchase\ClsApproval.vb" />
+    <Compile Include="Purchase\clsGoodsInward.vb" />
+    <Compile Include="Purchase\clsGoodsReturn.vb" />
+    <Compile Include="Purchase\clsGoodsReturnMaster.vb" />
+    <Compile Include="Purchase\ClsInvoiceForm.vb" />
+    <Compile Include="Purchase\ClsInvoiceMasterForm.vb" />
+    <Compile Include="Purchase\clsInwardMaster.vb" />
+    <Compile Include="Purchase\ClsNonTradingPurchase.vb" />
+    <Compile Include="Purchase\clsOralOrder.vb" />
+    <Compile Include="Purchase\clsPhysicalStockReport.vb" />
+    <Compile Include="Purchase\clsPhysicalStockUpdate.vb" />
+    <Compile Include="Purchase\ClsPurchaseDashBoard.vb" />
+    <Compile Include="Purchase\clsPurchaseInvoiceViewer.vb" />
+    <Compile Include="Purchase\clsPurchaseOrder.vb" />
+    <Compile Include="Purchase\ClsPurchaseOrderHR.vb" />
+    <Compile Include="Purchase\clsPurchaseRegistry.vb" />
+    <Compile Include="Purchase\clsPurchaseRegistryMaster.vb" />
+    <Compile Include="Purchase\clsPurchaseReport.vb" />
+    <Compile Include="Purchase\clsPurchaseReturn.vb" />
+    <Compile Include="Purchase\clsPurchaseVerification.vb" />
+    <Compile Include="Purchase\clsReports3.vb" />
+    <Compile Include="Purchase\clsSupplierUpload.vb" />
+    <Compile Include="RemoteData\ClsCashSales.vb" />
+    <Compile Include="RemoteData\ClsDataCapture.vb" />
+    <Compile Include="RemoteData\ClsDataCaptureMaster.vb" />
+    <Compile Include="RemoteData\ClsGIN.vb" />
+    <Compile Include="RemoteData\ClsInvoiceSales.vb" />
+    <Compile Include="RemoteData\ClsJE.vb" />
+    <Compile Include="RemoteData\ClsPay.vb" />
+    <Compile Include="RemoteData\ClsPetty.vb" />
+    <Compile Include="RemoteData\ClsPO.vb" />
+    <Compile Include="RemoteData\ClsRemoteReceipt.vb" />
+    <Compile Include="RemoteData\ClsReturnPurchase.vb" />
+    <Compile Include="RemoteData\ClsSalesDispatch.vb" />
+    <Compile Include="RemoteData\ClsSO.vb" />
+    <Compile Include="RemoteData\ClsSR.vb" />
+    <Compile Include="Reports\clsReports.vb" />
+    <Compile Include="Reports\ClsVendorDynamicReports.vb" />
+    <Compile Include="Sales\clsAllocateSalesOrder.vb" />
+    <Compile Include="Sales\ClsAllocationMaster.vb" />
+    <Compile Include="Sales\ClsDispatchDetails.vb" />
+    <Compile Include="Sales\ClsDispatchDetailsMaster.vb" />
+    <Compile Include="Sales\ClsDispatchForm.vb" />
+    <Compile Include="Sales\ClsDispatchFormMaster.vb" />
+    <Compile Include="Sales\ClsItemWiseSalesInvoice.vb" />
+    <Compile Include="Sales\ClsOralCounterMaster.vb" />
+    <Compile Include="Sales\clsOralSalesHR.vb" />
+    <Compile Include="Sales\clsOralSalesOrder.vb" />
+    <Compile Include="Sales\clsPROFormaHR.vb" />
+    <Compile Include="Sales\clsPROFormaSalesOrder.vb" />
+    <Compile Include="Sales\clsSaleReturn.vb" />
+    <Compile Include="Sales\clsSalesDashboard.vb" />
+    <Compile Include="Sales\clsSalesDynamicReport.vb" />
+    <Compile Include="Sales\clsSalesInvoice.vb" />
+    <Compile Include="Sales\ClsSalesOrderMaster.vb" />
+    <Compile Include="Sales\ClsSalesOrderUpload.vb" />
+    <Compile Include="Sales\ClsSalesPartyDashboard.vb" />
+    <Compile Include="Sales\ClsSalesPartyMaster.vb" />
+    <Compile Include="Sales\ClsSalesPartyUpload.vb" />
+    <Compile Include="Sales\ClsSalesReturn.vb" />
+    <Compile Include="Sales\ClsSalesReturnMaster.vb" />
+    <Compile Include="Sales\clsSalesReturnReport.vb" />
+    <Compile Include="Sales\ClsSampleSalesOrder.vb" />
+    <Compile Include="Search\clsSearch.vb" />
+    <Compile Include="Search\clsView.vb" />
+    <Compile Include="Upload\clsPhysicalStockExcelUpload.vb" />
+    <Compile Include="Upload\ClsUploadPurchaseOrder.vb" />
+    <Compile Include="VehicleMaintanance\clsVehicleCostDtls.vb" />
+    <Compile Include="VehicleMaintanance\clsVehicleAccidentDetails.vb" />
+    <Compile Include="VehicleMaintanance\clsVehicleAddtlnMaster.vb" />
+    <Compile Include="VehicleMaintanance\clsVehicleInsuranceMaster.vb" />
+    <Compile Include="VehicleMaintanance\clsVehicleLoanMaster.vb" />
+    <Compile Include="VehicleMaintanance\clsVehicleMaintanance.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DatabaseLayer\DatabaseLayer.vbproj">
+      <Project>{6490a977-26b5-48ca-b38e-9c5fa4c3cfe0}</Project>
+      <Name>DatabaseLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

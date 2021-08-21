@@ -1,0 +1,1490 @@
+
+Insert Into Sad_UserDetails(USR_ID,USR_Code,USR_FullName,USR_LoginName,USR_Password,USR_Email,USR_DutyStatus,Usr_CompID,USR_DelFlag,USR_ISPartner,usr_IsSuperuser) 
+Values(1,'sa','System Admin','sa','ec6KtO1HVN6FYKLkcCVtkA==','sa@gmail.com','A',1,'A',1,1)
+
+Insert Into Acc_COA_Settings(ACS_Id,ACS_AccHead,ACS_AccHeadPrefix,ACS_Group,ACS_SubGroup,ACS_GL,ACS_SubGL,ACS_CompId,ACS_IPAddress,ACS_operation,ACS_CreatedBy,ACS_CreatedOn,ACS_UpdatedBy,ACS_UpdatedOn) 
+Values(1,1,'A',2,2,2,2,1,'','C','','','','')
+
+Insert Into Acc_COA_Settings(ACS_Id,ACS_AccHead,ACS_AccHeadPrefix,ACS_Group,ACS_SubGroup,ACS_GL,ACS_SubGL,ACS_CompId,ACS_IPAddress,ACS_operation,ACS_CreatedBy,ACS_CreatedOn,ACS_UpdatedBy,ACS_UpdatedOn) 
+Values(2,2,'I',2,2,2,2,1,'','C','','','','')
+
+Insert Into Acc_COA_Settings(ACS_Id,ACS_AccHead,ACS_AccHeadPrefix,ACS_Group,ACS_SubGroup,ACS_GL,ACS_SubGL,ACS_CompId,ACS_IPAddress,ACS_operation,ACS_CreatedBy,ACS_CreatedOn,ACS_UpdatedBy,ACS_UpdatedOn) 
+Values(3,3,'E',2,2,2,2,1,'','C','','','','')
+
+Insert Into Acc_COA_Settings(ACS_Id,ACS_AccHead,ACS_AccHeadPrefix,ACS_Group,ACS_SubGroup,ACS_GL,ACS_SubGL,ACS_CompId,ACS_IPAddress,ACS_operation,ACS_CreatedBy,ACS_CreatedOn,ACS_UpdatedBy,ACS_UpdatedOn) 
+Values(4,4,'L',2,2,2,2,1,'','C','','','','')
+
+
+
+Insert Into ACC_Voucher_Settings(AVS_Id,AVS_TransType,AVS_Prefix,AVS_SNTotal,AVS_CompId,AVS_CreatedBy,AVS_CreatedOn,AVS_UpdatedBy,AVS_UpdatedOn,AVS_Operation,AVS_IPAddress) 
+Values(1,1,'PA','',1,'','','','','C','')
+
+Insert Into ACC_Voucher_Settings(AVS_Id,AVS_TransType,AVS_Prefix,AVS_SNTotal,AVS_CompId,AVS_CreatedBy,AVS_CreatedOn,AVS_UpdatedBy,AVS_UpdatedOn,AVS_Operation,AVS_IPAddress) 
+Values(2,2,'PC','',1,'','','','','C','')
+
+Insert Into ACC_Voucher_Settings(AVS_Id,AVS_TransType,AVS_Prefix,AVS_SNTotal,AVS_CompId,AVS_CreatedBy,AVS_CreatedOn,AVS_UpdatedBy,AVS_UpdatedOn,AVS_Operation,AVS_IPAddress) 
+Values(3,3,'REC','',1,'','','','','C','')
+
+Insert Into ACC_Voucher_Settings(AVS_Id,AVS_TransType,AVS_Prefix,AVS_SNTotal,AVS_CompId,AVS_CreatedBy,AVS_CreatedOn,AVS_UpdatedBy,AVS_UpdatedOn,AVS_Operation,AVS_IPAddress) 
+Values(4,4,'JE','',1,'','','','','C','')
+
+
+Insert Into Acc_Application_Settings(Acc_ID,Acc_Types,Acc_LedgerType,Acc_Head,Acc_Group,Acc_SubGroup,Acc_GL,Acc_SubGL,Acc_CompID) 
+Values(1,'Customer','Customer',0,0,0,0,0,1)
+
+Insert Into Acc_Application_Settings(Acc_ID,Acc_Types,Acc_LedgerType,Acc_Head,Acc_Group,Acc_SubGroup,Acc_GL,Acc_SubGL,Acc_CompID) 
+Values(2,'Customer','SGST',0,0,0,0,0,1)
+
+Insert Into Acc_Application_Settings(Acc_ID,Acc_Types,Acc_LedgerType,Acc_Head,Acc_Group,Acc_SubGroup,Acc_GL,Acc_SubGL,Acc_CompID) 
+Values(3,'Customer','CGST',0,0,0,0,0,1)
+
+Insert Into Acc_Application_Settings(Acc_ID,Acc_Types,Acc_LedgerType,Acc_Head,Acc_Group,Acc_SubGroup,Acc_GL,Acc_SubGL,Acc_CompID) 
+Values(4,'Customer','IGST',0,0,0,0,0,1)
+
+Insert Into Acc_Application_Settings(Acc_ID,Acc_Types,Acc_LedgerType,Acc_Head,Acc_Group,Acc_SubGroup,Acc_GL,Acc_SubGL,Acc_CompID) 
+Values(5,'Customer','Sales',0,0,0,0,0,1)
+
+Insert Into Acc_Application_Settings(Acc_ID,Acc_Types,Acc_LedgerType,Acc_Head,Acc_Group,Acc_SubGroup,Acc_GL,Acc_SubGL,Acc_CompID) 
+Values(6,'Supplier','Supplier',0,0,0,0,0,1)
+
+Insert Into Acc_Application_Settings(Acc_ID,Acc_Types,Acc_LedgerType,Acc_Head,Acc_Group,Acc_SubGroup,Acc_GL,Acc_SubGL,Acc_CompID) 
+Values(7,'Supplier','SGST',0,0,0,0,0,1)
+
+Insert Into Acc_Application_Settings(Acc_ID,Acc_Types,Acc_LedgerType,Acc_Head,Acc_Group,Acc_SubGroup,Acc_GL,Acc_SubGL,Acc_CompID) 
+Values(8,'Supplier','CGST',0,0,0,0,0,1)
+
+Insert Into Acc_Application_Settings(Acc_ID,Acc_Types,Acc_LedgerType,Acc_Head,Acc_Group,Acc_SubGroup,Acc_GL,Acc_SubGL,Acc_CompID) 
+Values(9,'Supplier','IGST',0,0,0,0,0,1)
+
+Insert Into Acc_Application_Settings(Acc_ID,Acc_Types,Acc_LedgerType,Acc_Head,Acc_Group,Acc_SubGroup,Acc_GL,Acc_SubGL,Acc_CompID) 
+Values(10,'Supplier','Purchase',0,0,0,0,0,1)
+
+Insert Into Acc_Application_Settings(Acc_ID,Acc_Types,Acc_LedgerType,Acc_Head,Acc_Group,Acc_SubGroup,Acc_GL,Acc_SubGL,Acc_CompID) 
+Values(11,'Cash','Cash',0,0,0,0,0,1)
+
+Insert Into Acc_Application_Settings(Acc_ID,Acc_Types,Acc_LedgerType,Acc_Head,Acc_Group,Acc_SubGroup,Acc_GL,Acc_SubGL,Acc_CompID) 
+Values(12,'Bank','Bank',0,0,0,0,0,1)
+
+Insert Into Acc_Application_Settings(Acc_ID,Acc_Types,Acc_LedgerType,Acc_Head,Acc_Group,Acc_SubGroup,Acc_GL,Acc_SubGL,Acc_CompID) 
+Values(13,'FE','Gain',0,0,0,0,0,1)
+
+Insert Into Acc_Application_Settings(Acc_ID,Acc_Types,Acc_LedgerType,Acc_Head,Acc_Group,Acc_SubGroup,Acc_GL,Acc_SubGL,Acc_CompID) 
+Values(14,'FE','Loss',0,0,0,0,0,1)
+
+
+
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(1,'Unit of Measurement','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(2,'Company Type','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(3,'City','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(4,'State','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(5,'Country','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(6,'Designation/Role','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(7,'Vendor Type','X',1)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(8,'Bill Prefix','X',1)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(9,'Payment Voucher Type','X',1)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(10,'TDS Type','X',1)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(11,'Payment Type','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(12,'Mode of Communication','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(13,'Method Of Shipping','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(14,'VAT','X',2)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(15,'CST','X',2)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(16,'Excise','X',2)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(17,'Delivery Schdule','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(18,'Payment Terms','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(19,'Discount','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(20,'Number Of Days','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(21,'Terms & Condtions Purchase','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(22,'Terms & Conditions','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(30,'Type Of Retailer','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(24,'Other Charges','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(25,'Receipt Voucher Type','X',1)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(26,'Journal Entry Voucher Type','X',1)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(27,'Bank Name','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(28,'Category Of TaxPayer','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(29,'Company Category','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(31,'Vehicle Type','X',3)
+Insert into ACC_Master_Type(Mas_Id,Mas_Type,Mas_DelFlag,mas_category) Values(32,'Compliance','X',3)
+
+
+
+
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(1,'Andaman and Nicobar Islands','35','AN',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(2,'Andhra Pradesh','28','AP',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(3,'Andhra Pradesh (New)','37','AD',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(4,'Arunachal Pradesh','12','AR',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(5,'Assam','18','AS',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(6,'Bihar','10','BH',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(7,'Chandigarh','04','CH',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(8,'Chattisgarh','22','CT',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(9,'Dadra and Nagar Haveli','26','DN',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(10,'Daman and Diu','25','DD',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(11,'Delhi','07','DL',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(12,'Goa','30','GA',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(13,'Gujarat','24','GJ',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(14,'Haryana','06','HR',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(15,'Himachal Pradesh','02','HP',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(16,'Jammu and Kashmir','01','JK',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(17,'Jharkhand','20','JH',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(18,'Karnataka','29','KA',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(19,'Kerala','32','KL',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(20,'Lakshadweep Islands','31','LD',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(21,'Madhya Pradesh','23','MP',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(22,'Maharashtra','27','MH',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(23,'Manipur','14','MN',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(24,'Meghalaya','17','ME',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(25,'Mizoram','15','MI',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(26,'Nagaland','13','NL',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(27,'Odisha','21','OR',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(28,'Pondicherry','34','PY',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(29,'Punjab','03','PB',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(30,'Rajasthan','08','RJ',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(31,'Sikkim','11','SK',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(32,'Tamil Nadu','33','TN',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(33,'Telangana','36','TS',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(34,'Tripura','16','TR',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(35,'Uttar Pradesh','09','UP',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(36,'Uttarakhand','05','UT',1)
+Insert into GSTN_RegNo_Master(GR_ID,GR_StateName,GR_TIN,GR_StateCode,GR_CompID) Values(37,'West Bengal','19','WB',1)
+
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(1,	'ImgPath',	'C:\inetpub\wwwroot\FASPro\FAS\temp',	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(2,	'FULLPATH','	C:\Inetpub\wwwroot\GeneralAudit\GenAudit\Edwebnew\EDICTDB\',	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(3,	'ExcelPath',	'C:\inetpub\wwwroot\FASPro\FAS\temp',	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(4,	'FilesInDB',	'False',	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(5,	'HTP',	'http://',	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(6,	'ImgServer',	'Localhost',	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(7,	'AppName',	'\TRACe\Edwebnew\EDICTDB\',	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(8,	'FtpServer',	'C:\Inetpub\FTPROOT\ROOT\',	1)
+
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(9,	'AnnPath',	'\EDICTDB\',	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(10,	'RDBMS',	'SQL',	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(11,	'ALERT',	'YES',	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(12,	'Currency',	1,	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(13,	'DateFormat',	2,	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(14,	'Voucher',	2,	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(15,	'TimeOut',	20,	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(16,	'TimeOutWarning',	1,	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(17,	'File Size',	20,	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(18,	'FileInDBPath',	'C:\inetpub\wwwroot\FASPro\FAS\temp',	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(19,	'Scanned Path',	'C:\scan',	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(20,	'ErrorLog',	'C:\FASINFO\ErrorLog.txt',	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(21,	'TempPath',	'C:\inetpub\wwwroot\FASPro\FAS\temp\',	1)
+
+Insert Into sad_config_settings(sad_config_ID,sad_Config_Key,sad_Config_Value,Sad_CompID)
+Values(22,	'FileSize',	5,	1)
+
+
+Insert Into Acc_Year_Master(YMS_ID,YMS_FROMDATE,YMS_TODATE,YMS_CRBY,YMS_CRON,yms_FreezeYear,YMS_FROM_YEAR,YMS_TO_YEAR,YMS_CompID,YMS_Status,YMS_DeletedBy,YMS_ReCalledBy,YMS_DelFlag,YMS_UpdatedBy,YMS_UpdatedOn,YMS_Operation,YMS_IPAddress,YMS_ApprovedBy,YMS_ApprovedOn,YMS_Default) 
+Values (1,	'2014-04-01 00:00:00.000',	'2015-03-31 00:00:00.000',	1,	GetDate(),NULL,	2014,	2015,	1,	'U',	NULL,	NULL,	'A',	NULL,	NULL,	'C',	'192.168.0.1',	NULL,	NULL,	0)
+
+Insert Into Acc_Year_Master(YMS_ID,YMS_FROMDATE,YMS_TODATE,YMS_CRBY,YMS_CRON,yms_FreezeYear,YMS_FROM_YEAR,YMS_TO_YEAR,YMS_CompID,YMS_Status,YMS_DeletedBy,YMS_ReCalledBy,YMS_DelFlag,YMS_UpdatedBy,YMS_UpdatedOn,YMS_Operation,YMS_IPAddress,YMS_ApprovedBy,YMS_ApprovedOn,YMS_Default) 
+Values(2,	'2015-04-01 00:00:00.000',	'2016-03-31 00:00:00.000',	1,	GetDate(),NULL,	2015,	2016,	1,	'U',	NULL,	NULL,	'A',	NULL,	NULL,	'C',	'192.168.0.1',	NULL,	NULL,	0)
+
+Insert Into Acc_Year_Master(YMS_ID,YMS_FROMDATE,YMS_TODATE,YMS_CRBY,YMS_CRON,yms_FreezeYear,YMS_FROM_YEAR,YMS_TO_YEAR,YMS_CompID,YMS_Status,YMS_DeletedBy,YMS_ReCalledBy,YMS_DelFlag,YMS_UpdatedBy,YMS_UpdatedOn,YMS_Operation,YMS_IPAddress,YMS_ApprovedBy,YMS_ApprovedOn,YMS_Default) 
+Values(3,	'2016-04-01 00:00:00.000',	'2017-03-31 00:00:00.000',	1,	GetDate(),NULL,	2016,	2017,	1,	'U',	NULL,	NULL,	'A',	NULL,	NULL,	'C',	'192.168.0.1',	NULL,	NULL,	0)
+
+Insert Into Acc_Year_Master(YMS_ID,YMS_FROMDATE,YMS_TODATE,YMS_CRBY,YMS_CRON,yms_FreezeYear,YMS_FROM_YEAR,YMS_TO_YEAR,YMS_CompID,YMS_Status,YMS_DeletedBy,YMS_ReCalledBy,YMS_DelFlag,YMS_UpdatedBy,YMS_UpdatedOn,YMS_Operation,YMS_IPAddress,YMS_ApprovedBy,YMS_ApprovedOn,YMS_Default) 
+Values(4,	'2017-04-01 00:00:00.000',	'2018-03-31 00:00:00.000',	1,	GetDate(),NULL,	2017,	2018,	1,	'U',	NULL,	NULL,	'A',	NULL,	NULL,	'C',	'192.168.0.1',	NULL,	NULL,	0)
+
+Insert Into Acc_Year_Master(YMS_ID,YMS_FROMDATE,YMS_TODATE,YMS_CRBY,YMS_CRON,yms_FreezeYear,YMS_FROM_YEAR,YMS_TO_YEAR,YMS_CompID,YMS_Status,YMS_DeletedBy,YMS_ReCalledBy,YMS_DelFlag,YMS_UpdatedBy,YMS_UpdatedOn,YMS_Operation,YMS_IPAddress,YMS_ApprovedBy,YMS_ApprovedOn,YMS_Default) 
+Values(5,	'2018-04-01 00:00:00.000',	'2019-03-31 00:00:00.000',	1,	GetDate(),NULL,	2018,	2019,	1,	'U',	NULL,	NULL,	'A',	NULL,	NULL,	'C',	'192.168.0.1',	NULL,	NULL,	0)
+
+Insert Into Acc_Year_Master(YMS_ID,YMS_FROMDATE,YMS_TODATE,YMS_CRBY,YMS_CRON,yms_FreezeYear,YMS_FROM_YEAR,YMS_TO_YEAR,YMS_CompID,YMS_Status,YMS_DeletedBy,YMS_ReCalledBy,YMS_DelFlag,YMS_UpdatedBy,YMS_UpdatedOn,YMS_Operation,YMS_IPAddress,YMS_ApprovedBy,YMS_ApprovedOn,YMS_Default) 
+Values(6,	'2019-04-01 00:00:00.000',	'2020-03-31 00:00:00.000',	1,	GetDate(),NULL,	2019,	2020,	1,	'U',	NULL,	NULL,	'A',	NULL,	NULL,	'C',	'192.168.0.1',	NULL,	NULL,	0)
+
+Insert Into Acc_Year_Master(YMS_ID,YMS_FROMDATE,YMS_TODATE,YMS_CRBY,YMS_CRON,yms_FreezeYear,YMS_FROM_YEAR,YMS_TO_YEAR,YMS_CompID,YMS_Status,YMS_DeletedBy,YMS_ReCalledBy,YMS_DelFlag,YMS_UpdatedBy,YMS_UpdatedOn,YMS_Operation,YMS_IPAddress,YMS_ApprovedBy,YMS_ApprovedOn,YMS_Default) 
+Values(7,	'2020-04-01 00:00:00.000',	'2021-03-31 00:00:00.000',	1,	GetDate(),NULL,	2020,	2021,	1,	'U',	NULL,	NULL,	'A',	NULL,	NULL,	'C',	'192.168.0.1',	NULL,	NULL,	0)
+
+Insert Into Acc_Year_Master(YMS_ID,YMS_FROMDATE,YMS_TODATE,YMS_CRBY,YMS_CRON,yms_FreezeYear,YMS_FROM_YEAR,YMS_TO_YEAR,YMS_CompID,YMS_Status,YMS_DeletedBy,YMS_ReCalledBy,YMS_DelFlag,YMS_UpdatedBy,YMS_UpdatedOn,YMS_Operation,YMS_IPAddress,YMS_ApprovedBy,YMS_ApprovedOn,YMS_Default) 
+Values(8,	'2021-04-01 00:00:00.000',	'2022-03-31 00:00:00.000',	1,	GetDate(),NULL,	2021,	2022,	1,	'U',	NULL,	NULL,	'A',	NULL,	NULL,	'C',	'192.168.0.1',	NULL,	NULL,	0)
+
+Insert Into Acc_Year_Master(YMS_ID,YMS_FROMDATE,YMS_TODATE,YMS_CRBY,YMS_CRON,yms_FreezeYear,YMS_FROM_YEAR,YMS_TO_YEAR,YMS_CompID,YMS_Status,YMS_DeletedBy,YMS_ReCalledBy,YMS_DelFlag,YMS_UpdatedBy,YMS_UpdatedOn,YMS_Operation,YMS_IPAddress,YMS_ApprovedBy,YMS_ApprovedOn,YMS_Default) 
+Values(9,	'2022-04-01 00:00:00.000',	'2023-03-31 00:00:00.000',	1,	GetDate(),NULL,	2022,	2023,	1,	'U',	NULL,	NULL,	'A',	NULL,	NULL,	'C',	'192.168.0.1',	NULL,	NULL,	0)
+
+Insert Into Acc_Year_Master(YMS_ID,YMS_FROMDATE,YMS_TODATE,YMS_CRBY,YMS_CRON,yms_FreezeYear,YMS_FROM_YEAR,YMS_TO_YEAR,YMS_CompID,YMS_Status,YMS_DeletedBy,YMS_ReCalledBy,YMS_DelFlag,YMS_UpdatedBy,YMS_UpdatedOn,YMS_Operation,YMS_IPAddress,YMS_ApprovedBy,YMS_ApprovedOn,YMS_Default) 
+Values(10,	'2023-04-01 00:00:00.000',	'2024-03-31 00:00:00.000',	1,	GetDate(),NULL,	2023,	2024,	1,	'U',	NULL,	NULL,	'A',	NULL,	NULL,	'C',	'192.168.0.1',	NULL,	NULL,	0)
+
+Insert Into Acc_Year_Master(YMS_ID,YMS_FROMDATE,YMS_TODATE,YMS_CRBY,YMS_CRON,yms_FreezeYear,YMS_FROM_YEAR,YMS_TO_YEAR,YMS_CompID,YMS_Status,YMS_DeletedBy,YMS_ReCalledBy,YMS_DelFlag,YMS_UpdatedBy,YMS_UpdatedOn,YMS_Operation,YMS_IPAddress,YMS_ApprovedBy,YMS_ApprovedOn,YMS_Default) 
+Values(11,	'2024-04-01 00:00:00.000',	'2025-03-31 00:00:00.000',	1,	GetDate(),NULL,	2024,	2025,	1,	'U',	NULL,	NULL,	'A',	NULL,	NULL,	'C',	'192.168.0.1',	NULL,	NULL,	0)
+
+
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(1	,'INR','India Rupees','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(2	,'USD','America (United States of America)- Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(3	,'USD','American Samoa United States Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(4	,'AFN','Afghanistan Afghanis','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(5	,'ALL','Albania Leke','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(6	,'DZD','Algeria Dinars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(7	,'USD','American Virgin Islands United States Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(8	,'EUR','Andorra Euro','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(9	,'AOA','Angola Kwanza','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(10	,'XCD','Anguilla East Caribbean Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(11	,'XCD','Antigua and Barbuda East Caribbean Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(12	,'ARS Argentina','Pesos','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(13	,'AMD','Armenia Drams','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(14	,'AWG','Aruba Guilders (also called Florins)','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(15	,'AUD','Australia Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(16	,'EUR','Austria Euro','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(17	,'AZN','Azerbaijan New Manats','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(18	,'EUR','Azores Euro','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(19	,'BSD','Bahamas Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(20	,'BHD','Bahrain Dinars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(21	,'EUR','Baleares (Balearic Islands)- Euro','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(22	,'BDT','Bangladesh Taka','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(23	,'BBD','Barbados Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(24	,'XCD','Barbuda and Antigua East Caribbean Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(25	,'BYR','Belarus Rubles','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(26	,'EUR','Belgium Euro','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(27	,'BZD','Belize Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(28	,'XOF','Benin Communauté Financière Africaine Francs (BCEAO)','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(29	,'BMD','Bermuda Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(30	,'BTN','Bhutan Ngultrum','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(31	,'INR','Bhutan India Rupees','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(32	,'BOB','Bolivia Bolivianos','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(33	,'ANG','Bonaire Netherlands Antilles Guilders (also called Florins)','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(34	,'BAM','Bosnia and Herzegovina Convertible Marka','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(35	,'BWP','Botswana Pulas','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(36	,'NOK','Bouvet Island Norway Kroner','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(37	,'BRL','Brazil Real','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(38	,'GBP','Britain (United Kingdom)- Pounds','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(39	,'USD','British Indian Ocean Territory United States Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(40	,'USD','British Virgin Islands United States Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(41	,'BND','Brunei Darussalam Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(42	,'BGN','Bulgaria Leva 43,XOF Burkina Faso, Communauté Financière Africaine Francs (BCEAO)','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(43	,'MMK','Burma (Myanmar)- Kyats','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(44	,'BIF','Burundi Francs','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(45	,'XOF','Côte DIvoire Communauté Financière Africaine Francs (BCEAO)','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(46	,'USD','Caicos and Turks Islands United States Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(47	,'KHR','Cambodia Riels','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(48	,'XAF','Cameroon Communauté Financière Africaine Francs (BEAC)','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(49	,'CAD','Canada Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(50	,'EUR','Canary Islands Euro','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(51	,'CVE','Cape Verde Escudos','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(52	,'KYD','Cayman Islands Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(53	,'XAF','Central African Republic Communauté Financière Africaine Francs (BEAC)','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(54	,'XAF','Chad Communauté Financière Africaine Francs (BEAC)','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(55	,'CLP','Chile Pesos','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(56	,'CNY','China Yuan Renminbi','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(57	,'AUD','Christmas Island Australia Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(58	,'AUD','Cocos (Keeling) Islands Australia Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(59	,'COP','Colombia Pesos','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(60	,'XAF','Communauté Financière Africaine (CFA) Francs','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(61	,'KMF','Comoros Francs','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(62	,'XPF','Comptoirs Français du Pacifique (CFP)- Francs','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(63	,'XAF','Congo/Brazzaville Communauté Financière Africaine Francs (BEAC)','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(64	,'CDF','Congo/Kinshasa Francs','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(65	,'NZD','Cook Islands New Zealand Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(66	,'CRC','Costa Rica Colones','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(67	,'HRK','Croatia Kuna','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(68	,'CUP','Cuba Pesos','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(69	,'ANG','Curaço Netherlands Antilles Guilders (also called Florins)','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(70	,'EUR','Cyprus Euro','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(71	,'CYP','Cyprus Pounds (expires 2008-Jan-31)','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(72	,'CZK','Czech Republic, Koruny','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(73	,'DKK','Denmark Kroner','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(74	,'DJF','Djibouti Francs','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(75	,'XCD','Dominica East Caribbean Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(76	,'DOP','Dominican Republic Pesos','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(77	,'EUR','Dutch (Netherlands) Euro','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(78	,'XCD','East Caribbean Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(79	,'IDR','East Timor Indonesia Rupiahs','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(80	,'USD','Ecuador United States Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(81	,'EGP','Egypt Pounds','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(82	,'EUR','Eire (Ireland) Euro','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(83	,'SVC','El Salvador Colones','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(84	,'USD','El Salvador United States Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(85	,'GBP','England (United Kingdom) Pounds','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(86	,'XAF','Equatorial Guinea Communauté Financière Africaine Francs (BEAC)','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(87	,'ETB','Eritrea Ethiopia Birr','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(88	,'ERN','Eritrea Nakfa','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(89	,'EUR','Estonia Euro','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(90	,'ETB','Ethiopia Birr','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(91	,'EUR','Euro Member Countries Euro','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(92	,'FKP','Falkland Islands (Malvinas)- Pounds','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(93	,'DKK','Faroe Islands Denmark Kroner','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(94	,'FJD','Fiji Dollars','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(95	,'EUR','Finland Euro','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(96	,'EUR','France Euro','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(97	,'EUR','French Guiana Euro','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(98	,'XPF','French Pacific Islands (French Polynesia) Comptoirs Français du Pacifique Francs','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(99	,'XPF','French Polynesia (French Pacific Islands) Comptoirs Français du Pacifique Francs','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(100	,'EUR','French Southern Territories Euro','A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(101,	'XPF',	'Futuna and Wallis Islands Comptoirs Français du Pacifique Francs',	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(102,	'XAF',	'Gabon Communauté Financière Africaine Francs (BEAC)',	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(103,	'GMD',	'Gambia Dalasi',	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(104,	'GEL',	'Georgia Lari',	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(105,	'EUR',	'Germany Euro',	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(106,	'GHS',	'Ghana Cedis',	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(107,	'GIP',	'Gibraltar Pounds',	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(108,	'XAU',	'Gold Ounces',	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(109,	'GBP',	'Great Britain (United Kingdom) Pounds',	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(110,	'EUR',	'Greece Euro',	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(	111,	'DKK',	'Greenland Denmark Kroner',	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(112,	'XCD',	'Grenada East Caribbean Dollars',	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(113,	'XCD',	'Grenadines (The) and Saint Vincent East Caribbean Dollars',	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(114,	'EUR',	'Guadeloupe Euro',	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(115,	'USD',	'Guam United States Dollars',	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(116,	'GTQ',	'Guatemala Quetzales',	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(117,	'GGP',	'Guernsey Pounds',	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(118,	'GNF',	'Guinea Francs',	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(119,	'XOF',	'Guinea-Bissau Communauté Financière Africaine Francs (BCEAO)'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(120,	'GYD',	'Guyana Dollars	',	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(121,	'HTG',	'Haiti Gourdes'	,	'A'	)
+
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(122,	'USD',	'Haiti United States Dollar'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(123,	'AUD',	'Heard Island and McDonald Islands Australia Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(124,	'BAM',	'Herzegovina and Bosnia Convertible Marka'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(125,	'EUR',	'Holland (Netherlands)- Euro'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(126,	'EUR',	'Holy See (Vatican City)- Euro'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(127,	'HNL',	'Honduras Lempiras'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(128,	'HKD',	'Hong Kong Dollars'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(129,	'HUF',	'Hungary Forint'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(130,	'ISK',	'Iceland Kronur'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(131,	'IDR',	'Indonesia Rupiahs'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(132,	'XDR',	'International Monetary Fund (IMF) - Special Drawing Rights'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(133,	'IRR',	'Iran Rials'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(134,	'IQD',	'Iraq Dinars'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(135,	'EUR',	'Ireland (Eire) Euro'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(136,	'IMP',	'Isle of Man Pounds'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(137,	'ILS',	'Israel New Shekels'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(138,	'EUR',	'Italy Euro'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(139,	'JMD',	'Jamaica Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(140,	'NOK',	'Jan Mayen and Svalbard Norway Kroner'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(141,	'JPY',	'Japan Yen'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(142,	'JEP',	'Jersey Pounds'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(143,	'JOD',	'Jordan Dinars'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(144,	'KZT',	'Kazakhstan Tenge'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(145,	'AUD',	'Keeling (Cocos) -Islands Australia Dollars'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(146,	'KES',	'Kenya Shillings'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(147,	'AUD',	'Kiribati Australia Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(148,	'KPW',	'Korea (North)- Won'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(149,	'KRW',	'Korea (South)- Won'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(150,	'KWD',	'Kuwait Dinars'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(151,	'KGS',	'Kyrgyzstan Soms'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(152,	'LAK',	'Laos Kips'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(153,	'LVL',	'Latvia Lati'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(154,	'LBP',	'Lebanon Pounds'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(155,	'MGA',	'Madagascar Ariary'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(156,	'LSL',	'Lesotho Maloti'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(157,	'ZAR',	'Lesotho South Africa Rand'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(158,	'LRD',	'Liberia Dollars'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(159,	'LYD',	'Libya Dinars'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(160,	'CHF',	'Liechtenstein Switzerland Francs'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(161,	'LTL',	'Lithuania Litai'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(162,	'EUR',	'Luxembourg Euro'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(163,	'MOP',	'Macau Patacas'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(164,	'MKD',	'Macedonia Denars'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(165,	'EUR',	'Madeira Islands Euro'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(166,	'MWK',	'Malawi Kwachas'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(167,	'MYR',	'Malaysia Ringgits'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(168,	'MVR',	'Maldives (Maldive Islands)- Rufiyaa'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(169,	'XOF',	'Mali Communauté Financière Africaine Francs (BCEAO)'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(170,	'EUR',	'Malta Euro'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(171,	'MTL',	'Malta Liri (expires 2008-Jan-31)'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(172,	'FKP',	'Malvinas (Falkland Islands)- Pounds'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(173,	'USD',	'Mariana Islands (Northern) United States Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(174,	'USD',	'Marshall Islands United States Dollars'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(175,	'EUR',	'Martinique Euro'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(176,	'MRO',	'Mauritania Ouguiyas'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(177,	'MUR',	'Mauritius Rupees'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(178,	'EUR',	'Mayotte Euro'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(179,	'AUD',	'McDonald Islands and Heard Island Australia Dollars'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(180,	'MXN',	'Mexico Pesos'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(181,	'USD',	'Micronesia (Federated States of)- United States Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(182,	'USD',	'Midway Islands United States Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(183,	'EUR',	'Miquelon and Saint Pierre Euro'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(184,	'MDL',	'Moldova Lei'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(185,	'EUR',	'Monaco Euro'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(186,	'MNT',	'Mongolia Tugriks'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(187,	'EUR',	'Montenegro Euro'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(188,	'XCD',	'Montserrat East Caribbean Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(189,	'MAD',	'Morocco Dirhams'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(190,	'MZN',	'Mozambique Meticais'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(191,	'MMK',	'Myanmar (Burma)- Kyats'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(192,	'NAD',	'Namibia Dollars'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(193,	'ZAR',	'Namibia South Africa Rand'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(194,	'AUD',	'Nauru Australia Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(195,	'NPR',	'Nepal Rupees'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(196,	'ANG',	'Netherlands Antilles Guilders (also called Florins)'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(197,	'EUR',	'Netherlands Euro'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(198,	'XCD',	'Nevis and Saint Kitts East Caribbean Dollars'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(199,	'XPF',	'New Caledonia Comptoirs Français du Pacifique Francs'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(200,	'NZD',	'New Zealand Dollars'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(201,	'NIO',	'Nicaragua, Cordobas'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(202,	'XOF',	'Niger, Communauté Financière Africaine Francs (BCEAO)'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(203,	'NGN',	'Nigeria Nairas'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(204,	'NZD',	'Niue New Zealand Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(205,	'AUD',	'Norfolk Island Australia Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(206,	'USD',	'Northern Mariana Islands United States Dollars'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(207,	'NOK',	'Norway Kroner'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(208,	'OMR',	'Oman Rials'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(209,	'PKR',	'Pakistan Rupees'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(210,	'USD',	'Palau United States Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(211,	'XPD',	'Palladium Ounces'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(212,	'PAB',	'Panama Balboa'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(213,	'USD',	'Panama United States Dollars'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(214,	'PGK',	'Papua New Guinea Kina'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(215,	'PYG',	'Paraguay Guarani'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(216,	'PEN',	'Peru Nuevos Soles'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(217,	'PHP',	'Philippines Pesos'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(218,	'NZD',	'Pitcairn Islands New Zealand Dollars'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(219,	'XPT',	'Platinum Ounces'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(220,	'PLN',	'Poland Zlotych'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(221,	'EUR',	'Portugal Euro'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(222,	'STD',	'Principe and São Tome Dobras'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(223,	'USD',	'Puerto Rico United States Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(224,	'QAR',	'Qatar Rials'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(225,	'EUR',	'Réunion Euro'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(226,	'RON',	'Romania New Lei'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(227,	'RUB',	'Russia Rubles'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(228,	'RWF',	'Rwanda Francs'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(229,	'STD',	'São Tome and Principe Dobras'	,	'A'		)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(230,	'ANG',	'Saba Netherlands Antilles Guilders (also called Florins)'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(231,	'MAD',	'Sahara (Western)- Morocco Dirhams'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(232,	'XCD',	'Saint Christopher East Caribbean Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(233,	'SHP',	'Saint Helena Pounds'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(234,	'XCD',	'Saint Kitts and Nevis East Caribbean Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(235,	'XCD',	'Saint Lucia East Caribbean Dollars'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(236,	'EUR',	'Saint Pierre and Miquelon Euro'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(237,	'XCD',	'Saint Vincent and The Grenadines East Caribbean Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(238,	'EUR',	'Saint-Martin Euro'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(239,	'USD',	'Samoa (American) United States Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(240,	'WST',	'Samoa Tala'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(241,	'EUR',	'San Marino Euro'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(242,	'SAR',	'Saudi Arabia Riyals'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(243,	'SPL',	'Seborga Luigini'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(244,	'XOF',	'Senegal Communauté Financière Africaine Francs (BCEAO)'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(245,	'RSD',	'Serbia Dinars'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(246,	'SCR',	'Seychelles Rupees'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(247,	'SLL',	'Sierra Leone Leones'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(248,	'XAG',	'Silver Ounces'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(249,	'SGD',	'Singapore Dollars'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(250,	'ANG',	'Sint Eustatius Netherlands Antilles Guilders (also called Florins)'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(251,	'ANG',	'Sint Maarten Netherlands Antilles Guilders (also called Florins)'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(252,	'EUR',	'Slovakia Euro'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(253,	'EUR',	'Slovenia Euro'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(254,	'SBD',	'Solomon Islands Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(255,	'SOS',	'Somalia Shillings'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(256,	'ZAR',	'South Africa Rand'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(257,	'GBP',	'South Georgia United Kingdom Pounds'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(258,	'GBP',	'South Sandwich Islands United Kingdom Pounds'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(259,	'EUR',	'Spain Euro'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(260,	'XDR',	'Special Drawing Rights'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(261,	'LKR',	'Sri Lanka Rupees'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(262,	'SDG',	'Sudan Pounds'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(263,	'SRD',	'Suriname Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(264,	'NOK',	'Svalbard and Jan Mayen Norway Kroner'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(265,	'SZL',	'Swaziland Emalangeni'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(266,	'SEK',	'Sweden Kronor'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(267,	'CHF',	'Switzerland Francs'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(268,	'SYP',	'Syria Pounds'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(269,	'TWD',	'Taiwan New Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(270,	'RUB',	'Tajikistan Russia Rubles'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(271,	'TJS',	'Tajikistan Somoni'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(272,	'TZS',	'Tanzania Shillings'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(273,	'THB',	'Thailand Baht'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(274,	'IDR',	'Timor (East) Indonesia Rupiahs'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(275,	'TTD',	'Tobago and Trinidad Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(276,	'XOF',	'Togo Communauté Financière Africaine Francs (BCEAO)'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(277,	'NZD',	'Tokelau New Zealand Dollars'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(278,	'TOP',	'Tonga Paanga'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(279,	'TTD',	'Trinidad and Tobago Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(280,	'TND',	'Tunisia Dinars'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(281,	'TRY',	'Turkey Lira'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(282,	'TMM',	'Turkmenistan Manats'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(283,	'USD',	'Turks and Caicos Islands United States Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(284,	'TVD',	'Tuvalu Tuvalu Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(285,	'UGX',	'Uganda Shillings'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(286,	'UAH',	'Ukraine Hryvnia'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(287,	'AED',	'United Arab Emirates Dirhams'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(288,	'GBP',	'United Kingdom Pounds'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(289,	'USD',	'United States Minor Outlying Islands United States Dollars'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(290,	'USD',	'United States of America Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(291,	'UYU',	'Uruguay Pesos'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(292,	'USD',	'US Virgin Islands United States Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(293,	'UZS',	'Uzbekistan Sums'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(294,	'VUV',	'Vanuatu Vatu'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(295,	'EUR',	'Vatican City (The Holy See) Euro'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(296,	'VEB',	'Venezuela Bolivares (expires 2008-Jun-30)'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(297,	'VEF',	'Venezuela Bolivares Fuertes'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(298,	'VND',	'Viet Nam Dong'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(299,	'USD',	'Virgin Islands (American) United States Dollar'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(300,	'USD',	'Virgin Islands (British)- United States Dollars'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(301,	'USD',	'Wake Island United States Dollars'	,	'A')
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(302,	'XPF',	'Wallis and Futuna Islands Comptoirs Français du Pacifique Francs'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(303,	'MAD',	'Western Sahara Morocco Dirhams'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(304,	'YER',	'Yemen Rials'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(305,	'ZMK',	'Zambia Kwacha'	,	'A'	)
+
+Insert Into Currency_Master(CUR_ID,CUR_CODE,CUR_CountryName,CUR_Status)
+Values(306,	'ZWD',	'Zimbabwe Zimbabwe Dollars'	,	'A'	)
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(1,'HOM','Home','Home', 0,'X','H', 1,'View,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(2,'MAS','Masters','Masters', 0,'X','H', 1,'View,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(3,'PUR','Purchase','Purchase', 0,'X','H', 1,'View,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(4,'SAL','Sales','Sales', 0,'X','H', 1,'View,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(5,'ACC','Accounts','Accounts', 0,'X','H', 1,'View,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(6,'POU','Purchase Order Upload(Excel)','Purchase Order Upload(Excel)', 3,'X','FN', 1,'View,SaveOrUpdate')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(7,'PO','Purchase Order','Purchase Order', 3,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(8,'GIN','Goods Inward Note','Goods Inward Note', 3,'X','FN', 1,'View,New,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(9,'PR','Purchase Register','Purchase Register', 3,'X','FN', 1,'View,New,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(10,'PI','Purchase Invoice','Purchase Invoice', 3,'X','FN', 1,'View,New,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(11,'PV','Purchase Verification','Purchase Verification', 3,'X','FN', 1,'View,New,Approve')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(12,'GR','Goods Return','Goods Return', 3,'X','FN', 1,'View,New,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(13,'OCP','Oral Or Counter Purchase','Oral Or Counter Purchase', 3,'X','FN', 1,'View,New,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(14,'REP','Reports','Reports', 3,'X','N', 1,'View,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(15,'PIR','Purchase Invoice','Purchase Invoice', 3,'X','FN', 1,'View')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(16,'DR','Dynamic Report','Dynamic Report', 3,'X','FN', 1,'View')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(17,'SETT','Settings','Settings', 2,'X','N', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(18,'ACO','Application Configuration','Application Configuration', 2,'X','FN', 1,'View,SaveOrUpdate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(19,'COMS','Company Setup','Company Setup', 2,'X','FN', 1,'View,SaveOrUpdate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(20,'ORGS','Organization Structure','Organization Structure', 2,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(21,'HYM','Holiday & Year Master','Holiday & Year Master', 2,'X','FN', 1,'View,SaveOrUpdate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(22,'PS','Print Settings','Print Settings', 2,'X','FN', 1,'View,New,SaveOrUpdate')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(23,'SUPM','Super Master','Super Master', 2,'X','N', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(24,'GENM','General Master','General Master', 2,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(25,'COA','Chart Of Accounts','Chart Of Accounts', 2,'X','FN', 1,'View,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(26,'APPS','Application Settings','Application Settings', 2,'X','FN', 1,'View,SaveOrUpdate')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(27,'CUSM','Customer Master','Customer Master', 2,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(28,'SM','Supplier Master','Supplier Master', 2,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(29,'EUM','Employee/User Master','Employee/User Master', 2,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(30,'PERM','Permission','Permission', 2,'X','FN', 1,'View,SaveOrUpdate')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(31,'EXU','Excel Upload','Excel Upload', 2,'X','FN', 1,'View,SaveOrUpdate')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(32,'INVE','Inventory','Inventory', 2,'X','N', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(33,'INVM','Inventory Master','Inventory Master', 2,'X','FN', 1,'View,New,SaveOrUpdate')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(34,'INMD','Inventory Master Details','Inventory Master Details', 2,'X','FN', 1,'View,New,SaveOrUpdate')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(35,'ISU','Initial Stock Update','Initial Stock Update', 2,'X','FN', 1,'View')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(36,'PHR','Physical Report','Physical Report', 2,'X','FN', 1,'View')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(37,'STOA','Stock Adjustment','Stock Adjustment', 2,'X','FN', 1,'View,New,SaveOrUpdate,Approve')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(38,'STOT','Stock Transfer','Stock Transfer', 2,'X','FN', 1,'View,New,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(39,'LINM','Linkage Master','Linkage Master', 2,'X','N', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(40,'ILM','Inventory Linkage Master','Inventory Linkage Master', 2,'X','FN', 1,'View,New,SaveOrUpdate')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(41,'SLM','Schedule Linkage Master','Schedule Linkage Master', 2,'X','FN', 1,'View,New,SaveOrUpdate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(42,'SO','Sales Order','Sales Order', 4,'X','FN', 1,'View,New,SaveOrUpdate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(43,'SOU','Sales Order Upload(Excel)','Sales Order Upload(Excel)', 4,'X','FN', 1,'View,SaveOrUpdate')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(44,'CS','Cash Sales','Cash Sales', 4,'X','FN', 1,'View,New,SaveOrUpdate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(45,'ALLO','Allocation','Allocation', 4,'X','FN', 1,'View,New,SaveOrUpdate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(46,'DFOR','Dispatch Form','Dispatch Form', 4,'X','FN', 1,'View,New,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(47,'INVF','Invoice Form','Invoice Form', 4,'X','FN', 1,'View,New,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(48,'SINV','Sales Invoice','Sales Invoice', 4,'X','FN', 1,'View')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(49,'SRET','Sales Return','Sales Return', 4,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(50,'SDR','Sales Dynamic Report','Sales Dynamic Report', 4,'X','FN', 1,'View,Approve')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(51,'SSO','Sales Sample Order','Sales Sample Order', 4,'X','FN', 1,'View,New,SaveOrUpdate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(52,'DASH','Dashboard','Dashboard', 5,'X','N', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(53,'ACCD','Account Wise Dashboard','Account Wise Dashboard', 5,'X','FN', 1,'View')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(54,'PWD','Party Wise Dashboard','Party Wise Dashboard', 5,'X','FN', 1,'View')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(55,'OB','Opening Balance','Opening Balance', 5,'X','FN', 1,'View,SaveOrUpdate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(56,'TRAN','Transaction','Transaction', 5,'X','N', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(57,'PSJT','Purchase & Sales JE Transaction','Purchase & Sales JE Transaction', 5,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(58,'PAYT','Payament Transaction','Payament Transaction', 5,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(59,'PCT','Petty Cash Transaction','Petty Cash Transaction', 5,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(60,'RT','Receipt Transaction','Receipt Transaction', 5,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(61,'JET','Journal Entry Transaction','Journal Entry Transaction', 5,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(62,'BD','Bill Dashboard','Payament Transaction', 5,'X','FN', 1,'View,New,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(63,'FA','Fixed Assets','Fixed Assets', 5,'X','N', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(64,'FASS','Fixed Assets','Fixed Assets', 5,'X','FN', 1,'View,New,Approve,ActivateOrDeactivate')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(65,'FAJE','Fixed Assets Journal Entry','Fixed Assets Journal Entry', 5,'X','FN', 1,'View,New,SaveOrUpdate')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(66,'FAM','Fixed Assets Master','Fixed Assets Master', 5,'X','FN', 1,'View,New,SaveOrUpdate')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(67,'BR','Bank Reconcilation','Bank Reconcilation', 5,'X','FN', 1,'View,New,SaveOrUpdate')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(68,'PDCR','Post Dated Cheque Registry','Post Dated Cheque Registry', 5,'X','FN', 1,'View,New,SaveOrUpdate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(69,'AR','Auxilary Report','Auxilary Report', 5,'X','FN', 1,'View,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(70,'PT','Purchase Transaction','Purchase Transaction', 5,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(71,'ST','Sales Transaction','Sales Transaction', 5,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(72,'RPTS','Reports','Reports', 5,'X','FN', 1,'View,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(73,'DF','Digital Filing','Digital Filing', 0,'X','H', 1,'View,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(74,'CB','Cabinet','Cabinet', 73,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(75,'SC','Sub Cabinet','Sub Cabinet', 73,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(76,'FL','Folder','Folder', 73,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(77,'DCR','Descriptor','Descriptor', 73,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(78,'DT','Document Type','Document Type', 73,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(79,'FU','File Upload','File Upload', 73,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(80,'SRH','Search','Search', 0,'X','H', 1,'View')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(81,'SRCH','Search','Search', 80,'X','FN', 1,'View')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(83,'LGST','Logistics Master','Logistics Master', 2,'X','N', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(84,'LGSTVM','Vehicle Master','Vehicle Master', 2,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(85,'LGSTDM','Diesel/Petrol Master','Diesel/Petrol Master', 2,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(86,'LGSTRM','Route Master','Route Master', 2,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons) 
+values(87,'LGSTDrM','Driver Master','Driver Master', 2,'X','FN', 1,'View,New,SaveOrUpdate,Approve,ActivateOrDeactivate,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons)
+values(88,'LOG','Logistics','Logistics', 0,'X','H', 1,'View,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons)
+values(89,'LTGF','Trip Generation','Trip Generation', 88,'X','FN', 1,'View,New,SaveOrUpdate,Approve,Report,Exception')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons)
+values(90,'LTA','Trip Accounts','Trip Accounts', 88,'X','N', 1,'View,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons)
+values(91,'LTR','Trip Reports','Trip Reports', 88,'X','N', 1,'View,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons)
+values(92,'LCB','Customer Billing','Customer Billing', 90,'X','FN', 1,'View,New,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons)
+values(93,'LDB','Driver Billing','Driver Billing', 90,'X','FN', 1,'View,New,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons)
+values(94,'LPB','Diesel/Petrol Pump Billing','Diesel/Petrol Pump Billing', 90,'X','FN', 1,'View,New,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons)
+values(95,'CBR','Customer Billing Reports','Customer Billing Reports', 91,'X','FN', 1,'View,New,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons)
+values(96,'DBR','Driver Billing Reports','Driver Billing Reports', 91,'X','FN', 1,'View,New,SaveOrUpdate,Approve,Report')
+
+Insert into sad_module(Mod_ID,Mod_Code,Mod_Description,Mod_Notes,Mod_Parent,Mod_Delflag,Mod_NavFunc,Mod_CompID,Mod_Buttons)
+values(97,'PBR','Diesel/Petrol Pump Billing Reports','Diesel/Petrol Pump Billing Reports', 91,'X','FN', 1,'View,New,SaveOrUpdate,Approve,Report')
+
+INSERT [dbo].[EDT_DESC_TYPE] ([DT_ID], [DT_Name], [DT_DataType], [DT_Value], [DT_Size], [DT_Status]) VALUES (1, N'Number', N'Number', N'0', 5, N'A')
+INSERT [dbo].[EDT_DESC_TYPE] ([DT_ID], [DT_Name], [DT_DataType], [DT_Value], [DT_Size], [DT_Status]) VALUES (2, N'Char', N'Varchar', N'0', 100, N'A')
+INSERT [dbo].[EDT_DESC_TYPE] ([DT_ID], [DT_Name], [DT_DataType], [DT_Value], [DT_Size], [DT_Status]) VALUES (3, N'Date', N'Date', N'0', 0, N'A')
+INSERT [dbo].[EDT_DESC_TYPE] ([DT_ID], [DT_Name], [DT_DataType], [DT_Value], [DT_Size], [DT_Status]) VALUES (4, N'All', N'All', N'100', 10, N'A')
+
+
+Insert Into EDT_Document_Type(DOT_DOCTYPEID,DOT_DOCNAME,DOT_NOTE,DOT_PGROUP,DOT_CRBY,DOT_CRON,DOT_STATUS,dot_operation,dot_operationby,DOT_isGlobal,DOT_DelFlag,DOT_UPDATEDBY,DOT_UPDATEDON,DOT_RECALLBY,DOT_RECALLON,DOT_DELETEDBY,DOT_DELETEDON,DOT_APPROVEDBY,DOT_APPROVEDON,DOT_CompId,DOT_IPAddress)
+Values(1,'Voucher','Voucher',0,1,GetDate(),'A','I',1,0,'A',1,GetDate(),1,GetDate(),1,GetDate(),1,GetDate(),1,'192.168.0.2')
+
+INSERT [dbo].[chart_of_Accounts] ([gl_id], [gl_glcode], [gl_parent], [gl_desc], [gl_head], [gl_reason], [gl_subglexist], [gl_delflag], [gl_AccHead], [gl_reason_Creation], [gl_CrBy], [gl_CrDate], [gl_SortOrder], [gl_CompId], [gl_AppBy], [gl_AppOn], [gl_Status], [gl_AccType], [gl_orderby], [gl_UpdatedBy], [gl_UpdatedOn], [gl_Operation], [gl_IPAddress]) VALUES (1, N'I01', 0, N'Frieght Earnings', 0, NULL, NULL, N'C', 2, N'Frieght Earnings', 1, CAST(N'2021-02-17 11:38:00' AS SmallDateTime), NULL, 1, 1, CAST(N'2021-02-17 11:37:39.547' AS DateTime), N'A', NULL, NULL, NULL, NULL, NULL, N'192.168.43.11')
+INSERT [dbo].[chart_of_Accounts] ([gl_id], [gl_glcode], [gl_parent], [gl_desc], [gl_head], [gl_reason], [gl_subglexist], [gl_delflag], [gl_AccHead], [gl_reason_Creation], [gl_CrBy], [gl_CrDate], [gl_SortOrder], [gl_CompId], [gl_AppBy], [gl_AppOn], [gl_Status], [gl_AccType], [gl_orderby], [gl_UpdatedBy], [gl_UpdatedOn], [gl_Operation], [gl_IPAddress]) VALUES (2, N'I0101', 1, N'Frieght Earnings', 1, NULL, NULL, N'C', 2, N'Frieght Earnings', 1, CAST(N'2021-02-17 11:38:00' AS SmallDateTime), NULL, 1, 1, CAST(N'2021-02-17 11:38:10.403' AS DateTime), N'A', NULL, NULL, NULL, NULL, NULL, N'192.168.43.11')
+INSERT [dbo].[chart_of_Accounts] ([gl_id], [gl_glcode], [gl_parent], [gl_desc], [gl_head], [gl_reason], [gl_subglexist], [gl_delflag], [gl_AccHead], [gl_reason_Creation], [gl_CrBy], [gl_CrDate], [gl_SortOrder], [gl_CompId], [gl_AppBy], [gl_AppOn], [gl_Status], [gl_AccType], [gl_orderby], [gl_UpdatedBy], [gl_UpdatedOn], [gl_Operation], [gl_IPAddress]) VALUES (3, N'I010101', 2, N'Frieght Earnings', 2, NULL, NULL, N'C', 2, N'Frieght Earnings', 1, CAST(N'2021-02-17 11:39:00' AS SmallDateTime), NULL, 1, 1, CAST(N'2021-02-17 11:38:42.617' AS DateTime), N'A', NULL, NULL, 1, CAST(N'2021-02-17 12:25:17.893' AS DateTime), NULL, N'192.168.43.11')
+
+INSERT [dbo].[chart_of_Accounts] ([gl_id], [gl_glcode], [gl_parent], [gl_desc], [gl_head], [gl_reason], [gl_subglexist], [gl_delflag], [gl_AccHead], [gl_reason_Creation], [gl_CrBy], [gl_CrDate], [gl_SortOrder], [gl_CompId], [gl_AppBy], [gl_AppOn], [gl_Status], [gl_AccType], [gl_orderby], [gl_UpdatedBy], [gl_UpdatedOn], [gl_Operation], [gl_IPAddress]) VALUES (4, N'E01', 0, N'Expenditure', 0, NULL, NULL, N'C', 3, N'Expenditure', 1, CAST(N'2021-02-17 11:38:00' AS SmallDateTime), NULL, 1, 1, CAST(N'2021-02-17 11:37:39.547' AS DateTime), N'A', NULL, NULL, NULL, NULL, NULL, N'192.168.43.11')
+INSERT [dbo].[chart_of_Accounts] ([gl_id], [gl_glcode], [gl_parent], [gl_desc], [gl_head], [gl_reason], [gl_subglexist], [gl_delflag], [gl_AccHead], [gl_reason_Creation], [gl_CrBy], [gl_CrDate], [gl_SortOrder], [gl_CompId], [gl_AppBy], [gl_AppOn], [gl_Status], [gl_AccType], [gl_orderby], [gl_UpdatedBy], [gl_UpdatedOn], [gl_Operation], [gl_IPAddress]) VALUES (5, N'E0101', 4, N'Other Expenses', 1, NULL, NULL, N'C', 3, N'Other Expenses', 1, CAST(N'2021-02-17 11:38:00' AS SmallDateTime), NULL, 1, 1, CAST(N'2021-02-17 11:38:10.403' AS DateTime), N'A', NULL, NULL, NULL, NULL, NULL, N'192.168.43.11')
+INSERT [dbo].[chart_of_Accounts] ([gl_id], [gl_glcode], [gl_parent], [gl_desc], [gl_head], [gl_reason], [gl_subglexist], [gl_delflag], [gl_AccHead], [gl_reason_Creation], [gl_CrBy], [gl_CrDate], [gl_SortOrder], [gl_CompId], [gl_AppBy], [gl_AppOn], [gl_Status], [gl_AccType], [gl_orderby], [gl_UpdatedBy], [gl_UpdatedOn], [gl_Operation], [gl_IPAddress]) VALUES (6, N'E010101', 5, N'Driver Expenses', 2, NULL, NULL, N'C', 3, N'Driver Expenses', 1, CAST(N'2021-02-17 11:39:00' AS SmallDateTime), NULL, 1, 1, CAST(N'2021-02-17 11:38:42.617' AS DateTime), N'A', NULL, NULL, 1, CAST(N'2021-02-17 12:25:17.893' AS DateTime), NULL, N'192.168.43.11')
+
+INSERT [dbo].[chart_of_Accounts] ([gl_id], [gl_glcode], [gl_parent], [gl_desc], [gl_head], [gl_reason], [gl_subglexist], [gl_delflag], [gl_AccHead], [gl_reason_Creation], [gl_CrBy], [gl_CrDate], [gl_SortOrder], [gl_CompId], [gl_AppBy], [gl_AppOn], [gl_Status], [gl_AccType], [gl_orderby], [gl_UpdatedBy], [gl_UpdatedOn], [gl_Operation], [gl_IPAddress]) VALUES (7, N'E0102', 4, N'Fuel Expense', 1, NULL, NULL, N'C', 3, N'Fuel Expense', 1, CAST(N'2021-03-25 11:07:00' AS SmallDateTime), NULL, 1, 1, CAST(N'2021-03-25 11:07:00.240' AS DateTime), N'A', NULL, NULL, NULL, NULL, NULL, N'192.168.0.105')
+INSERT [dbo].[chart_of_Accounts] ([gl_id], [gl_glcode], [gl_parent], [gl_desc], [gl_head], [gl_reason], [gl_subglexist], [gl_delflag], [gl_AccHead], [gl_reason_Creation], [gl_CrBy], [gl_CrDate], [gl_SortOrder], [gl_CompId], [gl_AppBy], [gl_AppOn], [gl_Status], [gl_AccType], [gl_orderby], [gl_UpdatedBy], [gl_UpdatedOn], [gl_Operation], [gl_IPAddress]) VALUES (8, N'E010201', 7, N'Purchase of Diesel', 2, NULL, NULL, N'C', 3, N'Purchase of Diesel', 1, CAST(N'2021-03-25 11:07:00' AS SmallDateTime), NULL, 1, 1, CAST(N'2021-03-25 11:07:25.653' AS DateTime), N'A', NULL, NULL, NULL, NULL, NULL, N'192.168.0.105')
+INSERT [dbo].[chart_of_Accounts] ([gl_id], [gl_glcode], [gl_parent], [gl_desc], [gl_head], [gl_reason], [gl_subglexist], [gl_delflag], [gl_AccHead], [gl_reason_Creation], [gl_CrBy], [gl_CrDate], [gl_SortOrder], [gl_CompId], [gl_AppBy], [gl_AppOn], [gl_Status], [gl_AccType], [gl_orderby], [gl_UpdatedBy], [gl_UpdatedOn], [gl_Operation], [gl_IPAddress]) VALUES (9, N'E01020101', 8, N'Diesel Expenses', 3, NULL, NULL, N'C', 3, N'Diesel Expenses', 1, CAST(N'2021-03-25 11:08:00' AS SmallDateTime), NULL, 1, 1, CAST(N'2021-03-25 11:07:52.970' AS DateTime), N'A', NULL, NULL, NULL, NULL, NULL, N'192.168.0.105')
+
+
+INSERT [dbo].[chart_of_Accounts] ([gl_id], [gl_glcode], [gl_parent], [gl_desc], [gl_head], [gl_reason], [gl_subglexist], [gl_delflag], [gl_AccHead], [gl_reason_Creation], [gl_CrBy], [gl_CrDate], [gl_SortOrder], [gl_CompId], [gl_AppBy], [gl_AppOn], [gl_Status], [gl_AccType], [gl_orderby], [gl_UpdatedBy], [gl_UpdatedOn], [gl_Operation], [gl_IPAddress]) VALUES (10, N'A01', 0, N'Current assets', 0, NULL, NULL, N'C', 1, N'Current assets', 1, CAST(N'2021-02-17 11:38:00' AS SmallDateTime), NULL, 1, 1, CAST(N'2021-02-17 11:37:39.547' AS DateTime), N'A', NULL, NULL, NULL, NULL, NULL, N'192.168.43.11')
+INSERT [dbo].[chart_of_Accounts] ([gl_id], [gl_glcode], [gl_parent], [gl_desc], [gl_head], [gl_reason], [gl_subglexist], [gl_delflag], [gl_AccHead], [gl_reason_Creation], [gl_CrBy], [gl_CrDate], [gl_SortOrder], [gl_CompId], [gl_AppBy], [gl_AppOn], [gl_Status], [gl_AccType], [gl_orderby], [gl_UpdatedBy], [gl_UpdatedOn], [gl_Operation], [gl_IPAddress]) VALUES (11, N'A0101', 10, N'Short time Loan & Advanc', 1, NULL, NULL, N'C', 1, N'Short time Loan & Advanc', 1, CAST(N'2021-02-17 11:38:00' AS SmallDateTime), NULL, 1, 1, CAST(N'2021-02-17 11:38:10.403' AS DateTime), N'A', NULL, NULL, NULL, NULL, NULL, N'192.168.43.11')
+INSERT [dbo].[chart_of_Accounts] ([gl_id], [gl_glcode], [gl_parent], [gl_desc], [gl_head], [gl_reason], [gl_subglexist], [gl_delflag], [gl_AccHead], [gl_reason_Creation], [gl_CrBy], [gl_CrDate], [gl_SortOrder], [gl_CompId], [gl_AppBy], [gl_AppOn], [gl_Status], [gl_AccType], [gl_orderby], [gl_UpdatedBy], [gl_UpdatedOn], [gl_Operation], [gl_IPAddress]) VALUES (12, N'A010101', 11, N'Loan & Advance', 2, NULL, NULL, N'C', 1, N'Loan & Advance', 1, CAST(N'2021-02-17 11:39:00' AS SmallDateTime), NULL, 1, 1, CAST(N'2021-02-17 11:38:42.617' AS DateTime), N'A', NULL, NULL, 1, CAST(N'2021-02-17 12:25:17.893' AS DateTime), NULL, N'192.168.43.11')
+INSERT [dbo].[chart_of_Accounts] ([gl_id], [gl_glcode], [gl_parent], [gl_desc], [gl_head], [gl_reason], [gl_subglexist], [gl_delflag], [gl_AccHead], [gl_reason_Creation], [gl_CrBy], [gl_CrDate], [gl_SortOrder], [gl_CompId], [gl_AppBy], [gl_AppOn], [gl_Status], [gl_AccType], [gl_orderby], [gl_UpdatedBy], [gl_UpdatedOn], [gl_Operation], [gl_IPAddress]) VALUES (13, N'A01010101', 12, N'Driver Advance', 3, NULL, NULL, N'C', 1, N'Driver Advance', 1, CAST(N'2021-03-25 11:08:00' AS SmallDateTime), NULL, 1, 1, CAST(N'2021-03-25 11:07:52.970' AS DateTime), N'A', NULL, NULL, NULL, NULL, NULL, N'192.168.0.105')
+
+INSERT [dbo].[chart_of_Accounts] ([gl_id], [gl_glcode], [gl_parent], [gl_desc], [gl_head], [gl_reason], [gl_subglexist], [gl_delflag], [gl_AccHead], [gl_reason_Creation], [gl_CrBy], [gl_CrDate], [gl_SortOrder], [gl_CompId], [gl_AppBy], [gl_AppOn], [gl_Status], [gl_AccType], [gl_orderby], [gl_UpdatedBy], [gl_UpdatedOn], [gl_Operation], [gl_IPAddress]) VALUES (14, N'A01010102', 12, N'Other Advance', 3, NULL, NULL, N'C', 1, N'Other Advance', 1, CAST(N'2021-03-25 11:08:00' AS SmallDateTime), NULL, 1, 1, CAST(N'2021-03-25 11:07:52.970' AS DateTime), N'A', NULL, NULL, NULL, NULL, NULL, N'192.168.0.105')
+
+
+

@@ -1,0 +1,2 @@
+Insert Into MMCSPL_UserLogin(MUL_PKID,MUL_FullName,MUL_LoginName,MUL_Password,MUL_LastLogindate,MUL_CreatedBy,MUL_CreatedOn,MUL_UnSuccessfullAttempts,MUL_NoOfLogins,MUL_IPAddress) 
+Values(1,'Administrator','admin','ec6KtO1HVN6FYKLkcCVtkA==','','Administrator','','','','')

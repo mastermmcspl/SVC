@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AssetRegister" targetNamespace="http://tempuri.org/AssetRegister.xsd" xmlns:mstns="http://tempuri.org/AssetRegister.xsd" xmlns="http://tempuri.org/AssetRegister.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AssetRegister" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="AssetRegister" msprop:Generator_UserDSName="AssetRegister">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AsstRegtable" msprop:Generator_TableClassName="AsstRegtableDataTable" msprop:Generator_TableVarName="tableAsstRegtable" msprop:Generator_TablePropName="AsstRegtable" msprop:Generator_RowDeletingName="AsstRegtableRowDeleting" msprop:Generator_RowChangingName="AsstRegtableRowChanging" msprop:Generator_RowEvHandlerName="AsstRegtableRowChangeEventHandler" msprop:Generator_RowDeletedName="AsstRegtableRowDeleted" msprop:Generator_UserTableName="AsstRegtable" msprop:Generator_RowChangedName="AsstRegtableRowChanged" msprop:Generator_RowEvArgName="AsstRegtableRowChangeEvent" msprop:Generator_RowClassName="AsstRegtableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AssetCode" msprop:Generator_ColumnVarNameInTable="columnAssetCode" msprop:Generator_ColumnPropNameInRow="AssetCode" msprop:Generator_ColumnPropNameInTable="AssetCodeColumn" msprop:Generator_UserColumnName="AssetCode" type="xs:string" minOccurs="0" />
+              <xs:element name="AssetDescription" msprop:Generator_ColumnVarNameInTable="columnAssetDescription" msprop:Generator_ColumnPropNameInRow="AssetDescription" msprop:Generator_ColumnPropNameInTable="AssetDescriptionColumn" msprop:Generator_UserColumnName="AssetDescription" type="xs:string" minOccurs="0" />
+              <xs:element name="PurchaseDate" msprop:Generator_ColumnVarNameInTable="columnPurchaseDate" msprop:Generator_ColumnPropNameInRow="PurchaseDate" msprop:Generator_ColumnPropNameInTable="PurchaseDateColumn" msprop:Generator_UserColumnName="PurchaseDate" type="xs:string" minOccurs="0" />
+              <xs:element name="PurchaseAmount" msprop:Generator_ColumnVarNameInTable="columnPurchaseAmount" msprop:Generator_ColumnPropNameInRow="PurchaseAmount" msprop:Generator_ColumnPropNameInTable="PurchaseAmountColumn" msprop:Generator_UserColumnName="PurchaseAmount" type="xs:string" minOccurs="0" />
+              <xs:element name="Datecommission" msprop:Generator_ColumnVarNameInTable="columnDatecommission" msprop:Generator_ColumnPropNameInRow="Datecommission" msprop:Generator_ColumnPropNameInTable="DatecommissionColumn" msprop:Generator_UserColumnName="Datecommission" type="xs:string" minOccurs="0" />
+              <xs:element name="Qty" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnPropNameInTable="QtyColumn" msprop:Generator_UserColumnName="Qty" type="xs:string" minOccurs="0" />
+              <xs:element name="DepMethod" msprop:Generator_ColumnVarNameInTable="columnDepMethod" msprop:Generator_ColumnPropNameInRow="DepMethod" msprop:Generator_ColumnPropNameInTable="DepMethodColumn" msprop:Generator_UserColumnName="DepMethod" type="xs:string" minOccurs="0" />
+              <xs:element name="DepRate" msprop:Generator_ColumnVarNameInTable="columnDepRate" msprop:Generator_ColumnPropNameInRow="DepRate" msprop:Generator_ColumnPropNameInTable="DepRateColumn" msprop:Generator_UserColumnName="DepRate" type="xs:string" minOccurs="0" />
+              <xs:element name="CurrentStatus" msprop:Generator_ColumnVarNameInTable="columnCurrentStatus" msprop:Generator_ColumnPropNameInRow="CurrentStatus" msprop:Generator_ColumnPropNameInTable="CurrentStatusColumn" msprop:Generator_UserColumnName="CurrentStatus" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
